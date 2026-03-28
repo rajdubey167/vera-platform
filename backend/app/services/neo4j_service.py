@@ -52,6 +52,16 @@ def sync_dataset(dataset_id: int, filename: str, file_type: str, record_count: i
         logger.warning(f"Neo4j sync failed for dataset {dataset_id}: {e}")
 
 
+def clear_all():
+    """Wipe all nodes from Neo4j."""
+    driver = get_driver()
+    if not driver:
+        return
+    with driver.session() as session:
+        session.run("MATCH (n) DETACH DELETE n")
+    logger.info("Neo4j cleared all nodes")
+
+
 def delete_dataset(dataset_id: int):
     """Remove Dataset node and orphan Column nodes from Neo4j."""
     driver = get_driver()
