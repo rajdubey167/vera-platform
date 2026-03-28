@@ -1,0 +1,17 @@
+[
+  {"name": "Alice Johnson", "age": 28, "department": "Engineering", "salary": 95000, "years_experience": 5, "city": "New York"},
+  {"name": "Bob Smith", "age": 35, "department": "Sales", "salary": 65000, "years_experience": 8, "city": "Chicago"},
+  {"name": "Carol Williams", "age": 42, "department": "Marketing", "salary": 72000, "years_experience": 12, "city": "Los Angeles"},
+  {"name": "Dave Brown", "age": 31, "department": "Engineering", "salary": 88000, "years_experience": 6, "city": "Seattle"},
+  {"name": "Eve Davis", "age": 25, "department": "HR", "salary": 55000, "years_experience": 2, "city": "Boston"},
+  {"name": "Frank Miller", "age": 48, "department": "Engineering", "salary": 125000, "years_experience": 20, "city": "San Francisco"},
+  {"name": "Grace Wilson", "age": 33, "department": "Finance", "salary": 82000, "years_experience": 9, "city": "New York"},
+  {"name": "Henry Moore", "age": 29, "department": "Sales", "salary": 61000, "years_experience": 4, "city": "Dallas"},
+  {"name": "Iris Taylor", "age": 37, "department": "Marketing", "salary": 78000, "years_experience": 11, "city": "Miami"},
+  {"name": "Jack Anderson", "age": 44, "department": "Engineering", "salary": 500000, "years_experience": 18, "city": "Austin"},
+  {"name": "Kate Thomas", "age": 26, "department": "HR", "salary": 52000, "years_experience": 1, "city": "Denver"},
+  {"name": "Leo Jackson", "age": 39, "department": "Finance", "salary": 91000, "years_experience": 14, "city": "Chicago"},
+  {"name": "Mia White", "age": 23, "department": "Engineering", "salary": 75000, "years_experience": 1, "city": "San Francisco"},
+  {"name": "Noah Harris", "age": 52, "department": "Sales", "salary": 69000, "years_experience": 25, "city": "New York"},
+  {"name": "Olivia Martin", "age": 30, "department": "Marketing", "salary": 70000, "years_experience": 7, "city": "Los Angeles"}
+]

@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+/* Enable class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+/* Theme variables — light is default */
+:root {
+  --bg-main: #f3f4f6;
+  --bg-card: #ffffff;
+  --bg-chart: #f9fafb;
+  --bg-inner: rgba(0, 0, 0, 0.03);
+  --bg-hover: rgba(0, 0, 0, 0.02);
+  --border: #e5e7eb;
+  --border-strong: #d1d5db;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --sidebar-bg: #ffffff;
+  --sidebar-border: #e5e7eb;
+  --sidebar-shadow: 1px 0 0 #e5e7eb;
+  --sidebar-text: #111827;
+  --sidebar-text-muted: #6b7280;
+  --sidebar-active-bg: rgba(59, 130, 246, 0.08);
+  --sidebar-hover-bg: rgba(0, 0, 0, 0.04);
+  --topbar-bg: #ffffff;
+  --tooltip-bg: #ffffff;
+  --tooltip-border: rgba(0, 0, 0, 0.1);
+  --tooltip-color: #0f172a;
+}
+
+.dark {
+  --bg-main: #0d1117;
+  --bg-card: #161b27;
+  --bg-chart: #1a2035;
+  --bg-inner: rgba(255, 255, 255, 0.03);
+  --bg-hover: rgba(255, 255, 255, 0.02);
+  --border: rgba(255, 255, 255, 0.05);
+  --border-strong: rgba(255, 255, 255, 0.1);
+  --sidebar-bg: #161b27;
+  --sidebar-border: rgba(255, 255, 255, 0.05);
+  --sidebar-shadow: 2px 0 12px rgba(0, 0, 0, 0.3);
+  --sidebar-text: #e2e8f0;
+  --sidebar-text-muted: #64748b;
+  --sidebar-active-bg: rgba(59, 130, 246, 0.2);
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+  --topbar-bg: #0d1117;
+  --tooltip-bg: #1e2535;
+  --tooltip-border: rgba(255, 255, 255, 0.08);
+  --tooltip-color: #f9fafb;
+}
+
+/* Utility classes for theme-aware borders */
+.border-theme { border-color: var(--border); box-shadow: var(--card-shadow, none); }
+.border-theme-strong { border-color: var(--border-strong); }
+
+/* Light mode card elevation */
+:root .border-theme {
+  box-shadow: var(--card-shadow, none);
+}
+
+/* Bold headings globally */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { min-height: 100vh; }

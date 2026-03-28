@@ -1,0 +1,21 @@
+date,product,category,quantity,price,region,salesperson
+2025-01-01,Widget A,Electronics,10,29.99,North,Alice
+2025-01-02,Gadget B,Electronics,15,39.99,South,Bob
+2025-01-03,Widget A,Electronics,8,29.99,East,Carol
+2025-01-04,Doohickey C,Hardware,20,19.99,West,Dave
+2025-01-05,Gadget B,Electronics,12,39.99,North,Alice
+2025-01-06,Thingamajig D,Hardware,5,89.99,South,Bob
+2025-01-07,Widget A,Electronics,25,29.99,East,Carol
+2025-01-08,Gadget B,Electronics,3,39.99,West,Dave
+2025-01-09,Doohickey C,Hardware,18,19.99,North,Alice
+2025-01-10,Widget A,Electronics,7,29.99,South,Bob
+2025-01-11,Thingamajig D,Hardware,2,89.99,East,Carol
+2025-01-12,Gadget B,Electronics,22,39.99,West,Dave
+2025-01-13,Widget A,Electronics,9,29.99,North,Alice
+2025-01-14,Doohickey C,Hardware,500,19.99,South,Bob
+2025-01-15,Gadget B,Electronics,11,39.99,East,Carol
+2025-01-16,Thingamajig D,Hardware,4,89.99,West,Dave
+2025-01-17,Widget A,Electronics,14,29.99,North,Alice
+2025-01-18,Gadget B,Electronics,16,39.99,South,Bob
+2025-01-19,Doohickey C,Hardware,8,19.99,East,Carol
+2025-01-20,Thingamajig D,Hardware,1,89.99,West,Dave

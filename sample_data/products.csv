@@ -1,0 +1,16 @@
+product_id,name,category,price,stock,rating,supplier,discontinued
+1,Widget A,Electronics,29.99,150,4.5,TechCorp,false
+2,Gadget B,Electronics,39.99,80,4.2,TechCorp,false
+3,Doohickey C,Hardware,19.99,200,3.8,BuildCo,false
+4,Thingamajig D,Hardware,89.99,25,4.7,BuildCo,false
+5,Whatsit E,Electronics,59.99,0,4.1,TechCorp,true
+6,Gizmo F,Software,149.99,999,4.9,SoftSolutions,false
+7,Contraption G,Hardware,34.99,67,3.5,BuildCo,false
+8,Device H,Electronics,199.99,12,4.6,TechCorp,false
+9,Apparatus I,Software,299.99,999,4.8,SoftSolutions,false
+10,Mechanism J,Hardware,24.99,310,3.9,BuildCo,false
+11,Component K,Electronics,14.99,0,4.3,TechCorp,true
+12,Module L,Software,79.99,999,4.7,SoftSolutions,false
+13,System M,Electronics,449.99,8,4.4,TechCorp,false
+14,Unit N,Hardware,9.99,500,3.6,BuildCo,false
+15,Platform O,Software,599.99,999,5.0,SoftSolutions,false

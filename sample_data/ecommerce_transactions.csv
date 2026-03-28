@@ -1,0 +1,601 @@
+transaction_id,date,product_name,category,quantity,unit_price,discount_pct,revenue,shipping_cost,tax_rate,tax_amount,total_amount,region,channel,payment_method,status,customer_age_group,is_first_purchase,rating,return_requested
+TXN-100000,2024-11-23,Dell XPS 15,Laptops,1,1749.99,0,1749.99,0,0.1016,177.8,1927.79,Africa,Marketplace,Credit Card,completed,18-24,True,,False
+TXN-100001,2023-08-14,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,9.99,0.0881,20.26,260.24,Latin America,Marketplace,Crypto,completed,18-24,False,3.1,False
+TXN-100002,2023-09-28,Nintendo Switch OLED,Gaming,1,332.49,0.05,332.49,4.99,0.0741,24.64,362.12,North America,Partner API,Buy Now Pay Later,completed,45-54,True,4.3,False
+TXN-100003,2023-10-24,PS5 Controller,Gaming,2,63.74,0.15,127.48,0,0.066,8.41,135.89,North America,Mobile App,Credit Card,completed,45-54,False,3.1,False
+TXN-100004,2024-01-24,MacBook Air M3,Laptops,2,1299.0,0,2598.0,9.99,0.0614,159.52,2767.51,Asia Pacific,Marketplace,PayPal,completed,18-24,False,4.2,False
+TXN-100005,2024-11-02,MacBook Air M3,Laptops,1,909.3,0.3,909.3,19.99,0.072,65.47,994.76,Latin America,Partner API,Gift Card,completed,35-44,False,3.7,False
+TXN-100006,2023-05-22,Portable Charger 20k,Accessories,2,35.99,0.1,71.98,4.99,0.1198,8.62,85.59,Middle East,Partner API,Credit Card,completed,18-24,False,4.2,False
+TXN-100007,2024-07-20,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,4.99,0.0676,79.03,1253.12,North America,Web,Gift Card,completed,35-44,False,,False
+TXN-100008,2023-07-02,4K Monitor 27in,Monitors,1,509.99,0.15,509.99,9.99,0.118,60.18,580.16,Middle East,Web,Gift Card,completed,65+,False,4.1,False
+TXN-100009,2024-01-07,NVMe SSD 2TB,Storage,5,161.99,0.1,809.95,4.99,0.0578,46.82,861.76,Asia Pacific,Mobile App,Credit Card,completed,55-64,True,,False
+TXN-100010,2024-07-16,MacBook Air M3,Laptops,15,1169.1,0.1,17536.5,0,0.0962,1687.01,19223.51,Europe,In-Store,Buy Now Pay Later,completed,45-54,False,4.1,False
+TXN-100011,2024-04-07,Fitbit Charge 6,Wearables,1,135.99,0.15,135.99,4.99,0.113,15.37,156.35,North America,Mobile App,PayPal,completed,18-24,False,1.3,False
+TXN-100012,2023-09-01,Samsung Galaxy S24,Smartphones,1,594.99,0.3,594.99,19.99,0.055,32.72,647.7,Asia Pacific,Partner API,PayPal,completed,65+,False,3.5,False
+TXN-100013,2023-02-25,Dell XPS 15,Laptops,1,1662.49,0.05,1662.49,4.99,0.0827,137.49,1804.97,Africa,Web,Credit Card,completed,35-44,True,2.6,False
+TXN-100014,2024-07-17,Mechanical Keyboard,Accessories,1,116.99,0.1,116.99,19.99,0.0553,6.47,143.45,North America,Web,Gift Card,failed,18-24,True,4.3,False
+TXN-100015,2023-01-03,Webcam 4K,Accessories,2,71.99,0.2,143.98,19.99,0.0615,8.85,172.82,Latin America,In-Store,Bank Transfer,completed,65+,False,2.9,False
+TXN-100016,2024-05-03,Portable Charger 20k,Accessories,3,39.99,0,119.97,4.99,0.0535,6.42,131.38,Middle East,Marketplace,PayPal,completed,55-64,True,1.9,True
+TXN-100017,2023-02-10,Kindle Paperwhite,E-Readers,2,97.99,0.3,195.98,9.99,0.0905,17.74,223.71,Middle East,Web,Bank Transfer,completed,55-64,False,2.6,False
+TXN-100018,2023-03-16,Kindle Paperwhite,E-Readers,1,139.99,0,139.99,9.99,0.082,11.48,161.46,North America,Partner API,Buy Now Pay Later,failed,18-24,True,3.5,False
+TXN-100019,2024-07-10,PS5 Controller,Gaming,5,59.99,0.2,299.95,4.99,0.061,18.3,323.24,Africa,In-Store,Buy Now Pay Later,failed,65+,True,3.7,False
+TXN-100020,2024-07-20,Dell XPS 15,Laptops,10,1749.99,0,17499.9,0,0.0575,1006.24,18506.14,Europe,In-Store,Crypto,completed,65+,False,3.8,False
+TXN-100021,2023-10-11,Webcam 4K,Accessories,1,62.99,0.3,62.99,0,0.0944,5.95,68.94,North America,Web,Crypto,completed,65+,False,3.4,False
+TXN-100022,2024-07-12,Smart Watch Ultra,Wearables,1,799.0,0,799.0,19.99,0.1133,90.53,909.52,North America,In-Store,Buy Now Pay Later,completed,45-54,False,,False
+TXN-100023,2024-07-27,Samsung Galaxy S24,Smartphones,5,849.99,0,4249.95,0,0.0572,243.1,4493.05,Latin America,Marketplace,Gift Card,completed,25-34,False,4.2,False
+TXN-100024,2024-11-16,iPhone 15 Pro,Smartphones,1,699.99,0.3,699.99,9.99,0.0788,55.16,765.14,Africa,Mobile App,Crypto,completed,65+,True,1.7,False
+TXN-100025,2023-08-22,iPad Pro 12.9,Tablets,4,989.1,0.1,3956.4,4.99,0.1057,418.19,4379.58,Europe,Web,Gift Card,completed,35-44,False,4.7,False
+TXN-100026,2023-04-29,NVMe SSD 2TB,Storage,1,90.0,0.5,90.0,4.99,0.1157,10.41,105.4,Asia Pacific,Mobile App,Buy Now Pay Later,pending,35-44,True,,False
+TXN-100027,2023-07-14,Nintendo Switch OLED,Gaming,2,175.0,0.5,350.0,0,0.113,39.55,389.55,Asia Pacific,Web,Gift Card,completed,55-64,False,1.9,False
+TXN-100028,2024-06-03,Nintendo Switch OLED,Gaming,2,297.49,0.15,594.98,0,0.113,67.23,662.21,Asia Pacific,Partner API,Crypto,completed,35-44,False,3.9,False
+TXN-100029,2023-10-21,AirPods Pro 2,Headphones,2,236.55,0.05,473.1,4.99,0.05,23.66,501.75,Europe,Partner API,Buy Now Pay Later,completed,35-44,False,3.9,False
+TXN-100030,2023-04-06,AirPods Pro 2,Headphones,3,249.0,0,747.0,9.99,0.0933,69.7,826.69,Europe,In-Store,PayPal,completed,25-34,True,,False
+TXN-100031,2023-07-19,Ring Doorbell Pro,Smart Home,4,229.99,0,919.96,4.99,0.0941,86.57,1011.52,Africa,Partner API,Bank Transfer,completed,25-34,True,4.3,False
+TXN-100032,2024-07-24,Mechanical Keyboard,Accessories,1,103.99,0.2,103.99,9.99,0.0825,8.58,122.56,Europe,Web,Bank Transfer,completed,45-54,False,4.4,False
+TXN-100033,2024-05-01,NVMe SSD 2TB,Storage,2,125.99,0.3,251.98,4.99,0.0611,15.4,272.37,Latin America,In-Store,PayPal,completed,35-44,False,2.9,False
+TXN-100034,2023-06-04,Fitbit Charge 6,Wearables,1,151.99,0.05,151.99,19.99,0.0556,8.45,180.43,Europe,Partner API,Gift Card,completed,25-34,True,3.1,False
+TXN-100035,2024-12-13,Samsung Galaxy S24,Smartphones,1,807.49,0.05,807.49,19.99,0.0909,73.4,900.88,North America,Marketplace,Bank Transfer,completed,35-44,False,4.3,False
+TXN-100036,2024-05-14,Mechanical Keyboard,Accessories,2,110.49,0.15,220.98,9.99,0.1128,24.93,255.9,Europe,In-Store,Bank Transfer,completed,45-54,False,4.2,False
+TXN-100037,2024-08-29,4K Monitor 27in,Monitors,5,300.0,0.5,1500.0,4.99,0.1135,170.25,1675.24,Middle East,Web,Credit Card,completed,25-34,False,2.8,False
+TXN-100038,2024-03-07,4K Monitor 27in,Monitors,1,509.99,0.15,509.99,4.99,0.1026,52.32,567.3,Asia Pacific,Web,Bank Transfer,completed,55-64,True,3.1,False
+TXN-100039,2023-06-06,Samsung Galaxy S24,Smartphones,3,594.99,0.3,1784.97,0,0.0514,91.75,1876.72,Europe,Mobile App,Bank Transfer,completed,55-64,False,2.8,False
+TXN-100040,2023-11-15,Ring Doorbell Pro,Smart Home,2,195.49,0.15,390.98,0,0.1074,41.99,432.97,North America,Marketplace,Credit Card,refunded,55-64,False,4.0,False
+TXN-100041,2023-05-04,Kindle Paperwhite,E-Readers,1,118.99,0.15,118.99,19.99,0.092,10.95,149.93,Middle East,Web,Crypto,completed,65+,False,,False
+TXN-100042,2024-04-15,iPhone 15 Pro,Smartphones,185,899.99,0.1,166498.15,4.99,0.0754,12553.96,179057.1,Africa,Mobile App,Bank Transfer,completed,55-64,False,4.5,False
+TXN-100043,2023-03-30,4K Monitor 27in,Monitors,2,509.99,0.15,1019.98,4.99,0.1096,111.79,1136.76,Asia Pacific,Partner API,PayPal,completed,55-64,False,3.5,False
+TXN-100044,2024-12-19,Webcam 4K,Accessories,1,76.49,0.15,76.49,4.99,0.1116,8.54,90.02,Asia Pacific,Marketplace,Credit Card,completed,25-34,True,3.3,False
+TXN-100045,2023-04-06,Kindle Paperwhite,E-Readers,3,125.99,0.1,377.97,4.99,0.1055,39.88,422.84,Asia Pacific,Mobile App,Bank Transfer,completed,35-44,False,3.6,False
+TXN-100046,2023-05-04,Smart Watch Ultra,Wearables,1,679.15,0.15,679.15,4.99,0.0676,45.91,730.05,Africa,Mobile App,Crypto,completed,55-64,False,4.1,False
+TXN-100047,2023-07-18,Portable Charger 20k,Accessories,15,35.99,0.1,539.85,4.99,0.057,30.77,575.61,Asia Pacific,Mobile App,Crypto,completed,18-24,False,4.7,False
+TXN-100048,2023-10-19,Sony WH-1000XM5,Headphones,2,297.49,0.15,594.98,0,0.0509,30.28,625.26,Latin America,Partner API,Bank Transfer,completed,18-24,False,3.5,False
+TXN-100049,2024-07-30,USB-C Hub 7-in-1,Accessories,2,44.99,0.1,89.98,9.99,0.0606,5.45,105.42,Asia Pacific,Web,PayPal,completed,45-54,False,3.2,False
+TXN-100050,2024-09-16,Fitbit Charge 6,Wearables,4,80.0,0.5,320.0,4.99,0.0935,29.92,354.91,Africa,Web,PayPal,completed,35-44,True,2.5,False
+TXN-100051,2023-10-23,iPhone 15 Pro,Smartphones,2,849.99,0.15,1699.98,4.99,0.0523,88.91,1793.88,Africa,In-Store,Gift Card,completed,18-24,False,4.2,False
+TXN-100052,2023-05-26,iPad Pro 12.9,Tablets,2,989.1,0.1,1978.2,9.99,0.1136,224.72,2212.91,North America,Web,PayPal,completed,55-64,False,3.4,False
+TXN-100053,2023-02-10,USB-C Hub 7-in-1,Accessories,10,44.99,0.1,449.9,4.99,0.0556,25.01,479.9,Latin America,In-Store,Buy Now Pay Later,completed,18-24,False,4.3,False
+TXN-100054,2023-06-29,iPhone 15 Pro,Smartphones,20,849.99,0.15,16999.8,4.99,0.0528,897.59,17902.38,Latin America,Marketplace,Gift Card,completed,35-44,False,3.4,False
+TXN-100055,2023-06-14,MacBook Air M3,Laptops,2,1234.05,0.05,2468.1,4.99,0.0573,141.42,2614.51,Asia Pacific,Partner API,Gift Card,completed,65+,False,3.7,False
+TXN-100056,2023-01-02,Nintendo Switch OLED,Gaming,1,349.99,0,349.99,9.99,0.1105,38.67,398.65,Africa,Marketplace,Bank Transfer,completed,25-34,False,3.5,False
+TXN-100057,2024-12-16,Samsung Galaxy S24,Smartphones,1,764.99,0.1,764.99,19.99,0.0807,61.73,846.71,Latin America,Web,Credit Card,pending,55-64,False,3.0,True
+TXN-100058,2023-05-01,Mechanical Keyboard,Accessories,1,65.0,0.5,65.0,19.99,0.0823,5.35,90.34,Africa,Mobile App,Bank Transfer,refunded,35-44,False,3.5,False
+TXN-100059,2023-05-20,4K Monitor 27in,Monitors,2,569.99,0.05,1139.98,19.99,0.0856,97.58,1257.55,North America,In-Store,Bank Transfer,completed,55-64,False,2.9,False
+TXN-100060,2024-05-10,Portable Charger 20k,Accessories,2,33.99,0.15,67.98,19.99,0.0813,5.53,93.5,Asia Pacific,In-Store,Buy Now Pay Later,completed,45-54,False,4.4,False
+TXN-100061,2024-04-29,Kindle Paperwhite,E-Readers,2,139.99,0,279.98,9.99,0.0531,14.87,304.84,Africa,Partner API,Bank Transfer,failed,65+,False,1.7,False
+TXN-100062,2024-04-12,Portable Charger 20k,Accessories,1,39.99,0,39.99,19.99,0.057,2.28,62.26,North America,Mobile App,Bank Transfer,completed,25-34,True,4.7,False
+TXN-100063,2024-01-25,USB-C Hub 7-in-1,Accessories,2,39.99,0.2,79.98,19.99,0.1102,8.81,108.78,Asia Pacific,Partner API,Buy Now Pay Later,completed,18-24,False,4.5,False
+TXN-100064,2024-03-30,MacBook Air M3,Laptops,2,1299.0,0,2598.0,9.99,0.1111,288.64,2896.63,Europe,In-Store,Credit Card,completed,18-24,False,3.3,False
+TXN-100065,2024-01-27,Mechanical Keyboard,Accessories,2,110.49,0.15,220.98,0,0.0555,12.26,233.24,Middle East,Mobile App,Bank Transfer,refunded,25-34,False,2.8,False
+TXN-100066,2023-03-17,iPhone 15 Pro,Smartphones,5,899.99,0.1,4499.95,4.99,0.0883,397.35,4902.29,Latin America,In-Store,Buy Now Pay Later,completed,45-54,False,3.0,False
+TXN-100067,2024-12-17,Webcam 4K,Accessories,1,85.49,0.05,85.49,4.99,0.0707,6.04,96.52,Asia Pacific,Web,Gift Card,completed,18-24,True,4.1,False
+TXN-100068,2023-07-14,Fitbit Charge 6,Wearables,3,159.99,0,479.97,19.99,0.0653,31.34,531.3,Middle East,In-Store,Gift Card,completed,65+,False,4.4,False
+TXN-100069,2023-10-30,Fitbit Charge 6,Wearables,3,159.99,0,479.97,4.99,0.0592,28.41,513.37,Asia Pacific,Partner API,PayPal,completed,55-64,False,4.5,False
+TXN-100070,2023-12-13,GoPro Hero 12,Cameras,5,279.99,0.3,1399.95,29.99,0.0707,98.98,1528.92,North America,Partner API,Credit Card,completed,25-34,False,4.2,False
+TXN-100071,2024-11-19,USB-C Hub 7-in-1,Accessories,1,44.99,0.1,44.99,4.99,0.0971,4.37,54.35,Asia Pacific,Marketplace,Bank Transfer,completed,35-44,True,3.5,False
+TXN-100072,2024-04-20,Smart Watch Ultra,Wearables,1,719.1,0.1,719.1,9.99,0.0945,67.95,797.04,Africa,In-Store,Gift Card,completed,25-34,True,3.0,False
+TXN-100073,2024-12-14,Dell XPS 15,Laptops,1,1574.99,0.1,1574.99,4.99,0.076,119.7,1699.68,Middle East,Partner API,Buy Now Pay Later,completed,25-34,False,4.3,False
+TXN-100074,2024-01-07,GoPro Hero 12,Cameras,1,379.99,0.05,379.99,4.99,0.1165,44.27,429.25,North America,In-Store,Buy Now Pay Later,refunded,65+,False,,False
+TXN-100075,2024-10-16,Dell XPS 15,Laptops,10,1399.99,0.2,13999.9,0,0.0648,907.19,14907.09,Middle East,Web,Credit Card,completed,25-34,False,2.6,False
+TXN-100076,2023-06-01,Smart Watch Ultra,Wearables,1,799.0,0,799.0,19.99,0.073,58.33,877.32,Middle East,Web,Crypto,completed,25-34,False,4.2,False
+TXN-100077,2023-01-17,iPhone 15 Pro,Smartphones,1,949.99,0.05,949.99,9.99,0.0912,86.64,1046.62,Europe,In-Store,Credit Card,completed,45-54,True,3.5,False
+TXN-100078,2024-11-05,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,0,0.0931,30.16,354.14,Middle East,In-Store,Bank Transfer,completed,18-24,True,4.3,False
+TXN-100079,2024-09-14,Dell XPS 15,Laptops,2,1224.99,0.3,2449.98,0,0.0557,136.46,2586.44,Europe,Web,PayPal,completed,65+,False,3.8,False
+TXN-100080,2024-10-28,NVMe SSD 2TB,Storage,2,179.99,0,359.98,9.99,0.1097,39.49,409.46,Middle East,Mobile App,Bank Transfer,completed,25-34,False,3.4,False
+TXN-100081,2024-12-04,Dell XPS 15,Laptops,1,1662.49,0.05,1662.49,4.99,0.1168,194.18,1861.66,Latin America,Web,Credit Card,completed,18-24,False,,False
+TXN-100082,2023-05-06,Sony WH-1000XM5,Headphones,2,314.99,0.1,629.98,9.99,0.0731,46.05,686.02,Latin America,In-Store,Gift Card,refunded,45-54,True,3.8,False
+TXN-100083,2023-12-25,Portable Charger 20k,Accessories,2,39.99,0,79.98,4.99,0.1093,8.74,93.71,Middle East,In-Store,Credit Card,completed,55-64,False,4.3,False
+TXN-100084,2024-12-11,Ring Doorbell Pro,Smart Home,2,206.99,0.1,413.98,0,0.115,47.61,461.59,Asia Pacific,Web,PayPal,completed,35-44,False,2.5,False
+TXN-100085,2024-06-27,USB-C Hub 7-in-1,Accessories,1,42.49,0.15,42.49,29.99,0.0564,2.4,74.88,Europe,Partner API,Bank Transfer,completed,25-34,False,3.0,False
+TXN-100086,2024-11-21,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,0,0.0932,21.44,251.43,North America,In-Store,Bank Transfer,completed,45-54,False,2.7,False
+TXN-100087,2024-11-14,PS5 Controller,Gaming,2,74.99,0,149.98,9.99,0.0841,12.61,172.58,Asia Pacific,Web,PayPal,completed,55-64,True,,False
+TXN-100088,2024-05-24,iPad Pro 12.9,Tablets,3,934.15,0.15,2802.45,4.99,0.0584,163.66,2971.1,Africa,Partner API,PayPal,completed,55-64,False,4.3,False
+TXN-100089,2023-03-21,MacBook Air M3,Laptops,1,1104.15,0.15,1104.15,4.99,0.0822,90.76,1199.9,Asia Pacific,Marketplace,Bank Transfer,completed,65+,False,3.3,False
+TXN-100090,2023-04-01,AirPods Pro 2,Headphones,4,224.1,0.1,896.4,19.99,0.1144,102.55,1018.94,Latin America,Web,PayPal,completed,45-54,True,3.0,False
+TXN-100091,2023-07-18,Nintendo Switch OLED,Gaming,3,349.99,0,1049.97,9.99,0.0871,91.45,1151.41,Asia Pacific,In-Store,Gift Card,pending,65+,False,2.4,False
+TXN-100092,2024-10-05,Ring Doorbell Pro,Smart Home,1,195.49,0.15,195.49,0,0.1166,22.79,218.28,Latin America,Partner API,Buy Now Pay Later,completed,45-54,False,3.8,False
+TXN-100093,2023-12-27,MacBook Air M3,Laptops,2,1169.1,0.1,2338.2,9.99,0.0914,213.71,2561.9,Middle East,Web,Crypto,completed,18-24,True,2.9,False
+TXN-100094,2023-02-12,MacBook Air M3,Laptops,2,1169.1,0.1,2338.2,4.99,0.0888,207.63,2550.82,Latin America,Marketplace,Gift Card,completed,55-64,False,4.6,False
+TXN-100095,2024-12-25,Nintendo Switch OLED,Gaming,15,349.99,0,5249.85,9.99,0.0527,276.67,5536.51,Latin America,Partner API,Buy Now Pay Later,completed,25-34,False,2.9,False
+TXN-100096,2023-12-04,Nintendo Switch OLED,Gaming,3,349.99,0,1049.97,9.99,0.0734,77.07,1137.03,North America,Marketplace,Gift Card,completed,35-44,False,3.7,False
+TXN-100097,2024-12-26,PS5 Controller,Gaming,1,63.74,0.15,63.74,9.99,0.059,3.76,77.49,North America,In-Store,Buy Now Pay Later,completed,35-44,False,4.3,False
+TXN-100098,2023-11-13,NVMe SSD 2TB,Storage,1,152.99,0.15,152.99,4.99,0.0513,7.85,165.83,Europe,Mobile App,Crypto,pending,45-54,False,2.3,False
+TXN-100099,2024-11-08,Dell XPS 15,Laptops,2,1574.99,0.1,3149.98,9.99,0.0869,273.73,3433.7,Asia Pacific,Marketplace,PayPal,completed,25-34,False,4.0,False
+TXN-100100,2024-03-30,AirPods Pro 2,Headphones,3,249.0,0,747.0,4.99,0.1004,75.0,826.99,Middle East,In-Store,Gift Card,completed,25-34,False,4.2,False
+TXN-100101,2023-10-16,iPad Pro 12.9,Tablets,1,769.3,0.3,769.3,29.99,0.0823,63.31,862.6,Latin America,Marketplace,Buy Now Pay Later,completed,25-34,False,2.3,False
+TXN-100102,2023-05-08,Webcam 4K,Accessories,4,80.99,0.1,323.96,0,0.1092,35.38,359.34,Asia Pacific,Web,PayPal,completed,55-64,False,2.1,False
+TXN-100103,2024-01-18,4K Monitor 27in,Monitors,5,419.99,0.3,2099.95,4.99,0.0778,163.38,2268.32,Europe,Partner API,Credit Card,completed,18-24,False,4.3,False
+TXN-100104,2023-05-23,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,19.99,0.0987,34.54,404.52,Africa,Partner API,Bank Transfer,completed,18-24,True,4.3,False
+TXN-100105,2023-02-18,Ring Doorbell Pro,Smart Home,2,229.99,0,459.98,4.99,0.0711,32.7,497.67,Europe,Partner API,Gift Card,completed,45-54,True,,False
+TXN-100106,2023-10-26,Ring Doorbell Pro,Smart Home,2,206.99,0.1,413.98,9.99,0.1003,41.52,465.49,Latin America,Web,Buy Now Pay Later,completed,55-64,False,3.9,False
+TXN-100107,2024-07-21,PS5 Controller,Gaming,1,67.49,0.1,67.49,4.99,0.1192,8.04,80.52,North America,Partner API,Bank Transfer,completed,45-54,False,1.5,False
+TXN-100108,2023-12-07,PS5 Controller,Gaming,1,63.74,0.15,63.74,0,0.0907,5.78,69.52,Europe,Web,Crypto,completed,65+,False,4.0,False
+TXN-100109,2024-04-13,Webcam 4K,Accessories,2,71.99,0.2,143.98,0,0.1043,15.02,159.0,North America,In-Store,PayPal,completed,25-34,True,3.0,False
+TXN-100110,2023-02-18,Smart Watch Ultra,Wearables,2,799.0,0,1598.0,9.99,0.07,111.86,1719.85,Africa,In-Store,Crypto,completed,35-44,False,4.1,False
+TXN-100111,2024-06-15,USB-C Hub 7-in-1,Accessories,1,49.99,0,49.99,9.99,0.0757,3.78,63.76,Asia Pacific,Web,Gift Card,completed,45-54,False,3.0,False
+TXN-100112,2023-12-26,Fitbit Charge 6,Wearables,1,143.99,0.1,143.99,4.99,0.0983,14.15,163.13,Latin America,Web,Gift Card,completed,35-44,False,4.7,False
+TXN-100113,2023-06-13,MacBook Air M3,Laptops,3,1234.05,0.05,3702.15,4.99,0.1025,379.47,4086.61,North America,Mobile App,Buy Now Pay Later,completed,45-54,True,,False
+TXN-100114,2024-04-05,PS5 Controller,Gaming,1,52.49,0.3,52.49,0,0.0607,3.19,55.68,Asia Pacific,In-Store,Bank Transfer,completed,55-64,False,3.3,False
+TXN-100115,2024-07-29,Kindle Paperwhite,E-Readers,10,139.99,0,1399.9,0,0.0862,120.67,1520.57,North America,In-Store,Crypto,completed,25-34,False,4.9,False
+TXN-100116,2023-03-31,Sony WH-1000XM5,Headphones,4,314.99,0.1,1259.96,19.99,0.0812,102.31,1382.26,Africa,In-Store,Gift Card,completed,18-24,False,4.3,False
+TXN-100117,2023-05-23,AirPods Pro 2,Headphones,3,224.1,0.1,672.3,0,0.0641,43.09,715.39,Europe,Partner API,Credit Card,completed,55-64,False,4.8,False
+TXN-100118,2024-02-25,MacBook Air M3,Laptops,1,1234.05,0.05,1234.05,9.99,0.0835,103.04,1347.08,Latin America,Marketplace,Credit Card,completed,35-44,True,4.0,False
+TXN-100119,2023-02-26,Smart Watch Ultra,Wearables,2,799.0,0,1598.0,29.99,0.0803,128.32,1756.31,North America,Marketplace,PayPal,completed,25-34,False,2.7,False
+TXN-100120,2024-07-18,NVMe SSD 2TB,Storage,5,143.99,0.2,719.95,4.99,0.0945,68.04,792.98,Asia Pacific,Mobile App,Gift Card,completed,55-64,True,2.5,False
+TXN-100121,2024-07-31,Sony WH-1000XM5,Headphones,1,314.99,0.1,314.99,19.99,0.0736,23.18,358.16,North America,Web,Credit Card,completed,65+,False,4.1,False
+TXN-100122,2024-05-09,iPhone 15 Pro,Smartphones,2,899.99,0.1,1799.98,4.99,0.117,210.6,2015.57,Europe,Partner API,Crypto,completed,65+,True,3.3,False
+TXN-100123,2023-12-20,Nintendo Switch OLED,Gaming,2,332.49,0.05,664.98,9.99,0.1014,67.43,742.4,Latin America,Mobile App,Crypto,completed,18-24,False,2.3,False
+TXN-100124,2023-09-12,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,4.99,0.0931,32.58,387.56,Europe,In-Store,Buy Now Pay Later,completed,25-34,False,3.6,False
+TXN-100125,2023-09-04,Fitbit Charge 6,Wearables,2,159.99,0,319.98,4.99,0.082,26.24,351.21,Europe,Marketplace,Crypto,completed,35-44,False,4.3,False
+TXN-100126,2024-01-10,Fitbit Charge 6,Wearables,2,127.99,0.2,255.98,4.99,0.1118,28.62,289.59,Latin America,In-Store,Credit Card,completed,55-64,False,2.9,False
+TXN-100127,2023-05-02,4K Monitor 27in,Monitors,3,599.99,0,1799.97,29.99,0.0976,175.68,2005.64,Europe,Web,Bank Transfer,completed,35-44,False,2.6,False
+TXN-100128,2024-06-15,NVMe SSD 2TB,Storage,1,179.99,0,179.99,9.99,0.1063,19.13,209.11,Latin America,Mobile App,Buy Now Pay Later,completed,25-34,False,3.0,False
+TXN-100129,2024-06-29,Ring Doorbell Pro,Smart Home,3,229.99,0,689.97,4.99,0.108,74.52,769.48,Latin America,Marketplace,Crypto,completed,18-24,False,2.2,False
+TXN-100130,2024-04-30,Fitbit Charge 6,Wearables,3,135.99,0.15,407.97,9.99,0.0519,21.17,439.13,Asia Pacific,Marketplace,Buy Now Pay Later,completed,18-24,False,3.8,False
+TXN-100131,2023-04-23,USB-C Hub 7-in-1,Accessories,1,42.49,0.15,42.49,0,0.1164,4.95,47.44,Europe,Web,Bank Transfer,completed,25-34,False,3.3,False
+TXN-100132,2023-08-01,Webcam 4K,Accessories,4,76.49,0.15,305.96,0,0.0597,18.27,324.23,Middle East,In-Store,Gift Card,completed,45-54,False,3.4,False
+TXN-100133,2024-12-10,Smart Watch Ultra,Wearables,1,679.15,0.15,679.15,9.99,0.095,64.52,753.66,Asia Pacific,Marketplace,Bank Transfer,completed,25-34,False,2.7,False
+TXN-100134,2024-05-06,Fitbit Charge 6,Wearables,3,135.99,0.15,407.97,9.99,0.0842,34.35,452.31,Asia Pacific,Marketplace,Gift Card,completed,18-24,False,3.2,False
+TXN-100135,2024-03-28,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,9.99,0.0742,25.97,385.95,Africa,In-Store,Gift Card,completed,25-34,False,4.0,False
+TXN-100136,2023-08-20,Ring Doorbell Pro,Smart Home,3,229.99,0,689.97,0,0.1134,78.24,768.21,Africa,Mobile App,Credit Card,completed,35-44,False,,False
+TXN-100137,2024-05-02,iPhone 15 Pro,Smartphones,198,999.99,0,197998.02,9.99,0.1116,22096.58,220104.59,Latin America,Mobile App,Crypto,completed,65+,True,2.1,False
+TXN-100138,2024-03-03,Smart Watch Ultra,Wearables,3,639.2,0.2,1917.6,0,0.1145,219.57,2137.17,Europe,Web,Bank Transfer,completed,25-34,False,1.3,False
+TXN-100139,2024-06-20,Dell XPS 15,Laptops,5,1662.49,0.05,8312.45,4.99,0.0949,788.85,9106.29,Latin America,Mobile App,Buy Now Pay Later,completed,25-34,True,4.1,False
+TXN-100140,2023-07-17,AirPods Pro 2,Headphones,1,236.55,0.05,236.55,4.99,0.0972,22.99,264.53,Europe,Marketplace,Gift Card,refunded,45-54,False,,False
+TXN-100141,2024-01-28,AirPods Pro 2,Headphones,15,224.1,0.1,3361.5,19.99,0.0505,169.76,3551.25,Europe,Partner API,Crypto,pending,35-44,True,3.1,False
+TXN-100142,2024-12-21,Dell XPS 15,Laptops,2,1749.99,0,3499.98,9.99,0.1146,401.1,3911.07,Asia Pacific,Web,Gift Card,refunded,35-44,False,2.7,False
+TXN-100143,2024-04-27,Sony WH-1000XM5,Headphones,2,175.0,0.5,350.0,4.99,0.0991,34.68,389.67,Middle East,Mobile App,PayPal,completed,55-64,True,3.6,False
+TXN-100144,2024-07-03,Portable Charger 20k,Accessories,1,31.99,0.2,31.99,19.99,0.0642,2.05,54.03,Europe,Mobile App,Crypto,completed,45-54,True,4.0,False
+TXN-100145,2024-07-31,NVMe SSD 2TB,Storage,2,179.99,0,359.98,0,0.0791,28.47,388.45,North America,Marketplace,Bank Transfer,completed,35-44,True,4.2,False
+TXN-100146,2023-03-03,Portable Charger 20k,Accessories,1,37.99,0.05,37.99,9.99,0.0879,3.34,51.32,North America,Partner API,Credit Card,completed,25-34,False,4.7,False
+TXN-100147,2024-01-22,Mechanical Keyboard,Accessories,1,103.99,0.2,103.99,4.99,0.1142,11.88,120.86,Latin America,Web,Gift Card,pending,55-64,False,3.1,False
+TXN-100148,2023-01-24,Smart Watch Ultra,Wearables,1,799.0,0,799.0,29.99,0.1084,86.61,915.6,Asia Pacific,Partner API,Gift Card,completed,45-54,False,2.8,False
+TXN-100149,2024-11-07,GoPro Hero 12,Cameras,1,319.99,0.2,319.99,9.99,0.0523,16.74,346.72,Latin America,Marketplace,Credit Card,completed,18-24,True,3.4,False
+TXN-100150,2023-02-27,Samsung Galaxy S24,Smartphones,1,849.99,0,849.99,4.99,0.0878,74.63,929.61,Europe,Marketplace,Crypto,completed,65+,False,4.1,False
+TXN-100151,2023-11-04,Kindle Paperwhite,E-Readers,1,139.99,0,139.99,9.99,0.0655,9.17,159.15,Asia Pacific,Web,Buy Now Pay Later,pending,65+,False,3.3,False
+TXN-100152,2024-03-02,PS5 Controller,Gaming,10,63.74,0.15,637.4,9.99,0.0723,46.08,693.47,Latin America,Mobile App,Crypto,completed,55-64,False,2.7,False
+TXN-100153,2024-07-24,Sony WH-1000XM5,Headphones,4,244.99,0.3,979.96,9.99,0.1177,115.34,1105.29,Middle East,Mobile App,Bank Transfer,completed,25-34,False,4.5,False
+TXN-100154,2024-09-11,MacBook Air M3,Laptops,2,1039.2,0.2,2078.4,0,0.0764,158.79,2237.19,Middle East,Web,Credit Card,completed,55-64,False,4.4,False
+TXN-100155,2024-05-05,iPhone 15 Pro,Smartphones,1,999.99,0,999.99,9.99,0.1023,102.3,1112.28,Europe,Marketplace,Gift Card,completed,25-34,False,3.2,False
+TXN-100156,2024-04-25,PS5 Controller,Gaming,1,71.24,0.05,71.24,19.99,0.0826,5.88,97.11,Asia Pacific,Mobile App,Crypto,completed,18-24,False,1.5,False
+TXN-100157,2024-01-24,Portable Charger 20k,Accessories,2,37.99,0.05,75.98,0,0.0731,5.55,81.53,Middle East,Mobile App,Bank Transfer,completed,65+,False,4.2,False
+TXN-100158,2024-07-13,Webcam 4K,Accessories,2,76.49,0.15,152.98,4.99,0.0598,9.15,167.12,Latin America,Mobile App,Buy Now Pay Later,failed,18-24,True,2.0,False
+TXN-100159,2024-12-25,Samsung Galaxy S24,Smartphones,3,807.49,0.05,2422.47,19.99,0.0662,160.37,2602.83,Europe,Web,PayPal,completed,35-44,True,3.9,False
+TXN-100160,2023-01-18,Webcam 4K,Accessories,3,89.99,0,269.97,4.99,0.0788,21.27,296.23,Middle East,In-Store,Buy Now Pay Later,pending,18-24,False,4.5,False
+TXN-100161,2023-12-29,Dell XPS 15,Laptops,2,1749.99,0,3499.98,9.99,0.0677,236.95,3746.92,Asia Pacific,Partner API,Credit Card,completed,45-54,False,4.8,False
+TXN-100162,2024-01-24,MacBook Air M3,Laptops,3,1039.2,0.2,3117.6,9.99,0.0565,176.14,3303.73,Latin America,Marketplace,Bank Transfer,completed,18-24,False,,False
+TXN-100163,2023-02-13,Nintendo Switch OLED,Gaming,2,279.99,0.2,559.98,0,0.087,48.72,608.7,Europe,Mobile App,Gift Card,completed,45-54,False,,False
+TXN-100164,2023-11-19,GoPro Hero 12,Cameras,5,359.99,0.1,1799.95,0,0.115,206.99,2006.94,North America,Mobile App,Buy Now Pay Later,completed,65+,False,3.0,False
+TXN-100165,2023-05-24,Portable Charger 20k,Accessories,4,37.99,0.05,151.96,19.99,0.0732,11.12,183.07,Africa,Web,Buy Now Pay Later,completed,35-44,True,,False
+TXN-100166,2023-12-01,MacBook Air M3,Laptops,1,1104.15,0.15,1104.15,29.99,0.0778,85.9,1220.04,North America,In-Store,Bank Transfer,completed,35-44,False,3.9,False
+TXN-100167,2023-10-02,MacBook Air M3,Laptops,3,1299.0,0,3897.0,0,0.0551,214.72,4111.72,Europe,Partner API,Gift Card,completed,25-34,False,2.2,True
+TXN-100168,2024-03-17,Fitbit Charge 6,Wearables,2,135.99,0.15,271.98,0,0.0561,15.26,287.24,Latin America,Marketplace,Buy Now Pay Later,completed,18-24,True,,False
+TXN-100169,2024-02-02,Ring Doorbell Pro,Smart Home,2,218.49,0.05,436.98,4.99,0.0704,30.76,472.73,North America,Marketplace,PayPal,completed,25-34,False,2.9,False
+TXN-100170,2023-03-20,Sony WH-1000XM5,Headphones,1,332.49,0.05,332.49,4.99,0.0839,27.9,365.38,Asia Pacific,In-Store,PayPal,completed,45-54,False,2.3,True
+TXN-100171,2023-12-09,USB-C Hub 7-in-1,Accessories,1,44.99,0.1,44.99,19.99,0.0731,3.29,68.27,Latin America,Marketplace,PayPal,completed,55-64,False,2.5,False
+TXN-100172,2023-09-06,Nintendo Switch OLED,Gaming,1,297.49,0.15,297.49,4.99,0.0903,26.86,329.34,Asia Pacific,Partner API,Crypto,completed,45-54,False,,False
+TXN-100173,2024-04-17,Portable Charger 20k,Accessories,20,39.99,0,799.8,9.99,0.0519,41.51,851.3,Africa,Mobile App,Bank Transfer,completed,65+,True,4.2,False
+TXN-100174,2024-03-09,Webcam 4K,Accessories,1,85.49,0.05,85.49,4.99,0.0608,5.2,95.68,Latin America,Web,Bank Transfer,failed,45-54,False,4.5,False
+TXN-100175,2024-07-03,Mechanical Keyboard,Accessories,2,110.49,0.15,220.98,4.99,0.1127,24.9,250.87,Middle East,Web,Credit Card,completed,65+,False,3.8,False
+TXN-100176,2023-04-11,USB-C Hub 7-in-1,Accessories,10,47.49,0.05,474.9,9.99,0.0574,27.26,512.15,Asia Pacific,Mobile App,Buy Now Pay Later,completed,55-64,False,3.2,False
+TXN-100177,2023-10-30,Portable Charger 20k,Accessories,3,39.99,0,119.97,29.99,0.0838,10.05,160.01,Latin America,Web,Credit Card,completed,65+,False,3.1,False
+TXN-100178,2023-11-23,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,4.99,0.0988,32.01,360.98,North America,In-Store,Credit Card,completed,18-24,True,3.9,False
+TXN-100179,2023-12-05,AirPods Pro 2,Headphones,5,211.65,0.15,1058.25,4.99,0.0886,93.76,1157.0,Middle East,Partner API,Bank Transfer,completed,45-54,False,3.9,False
+TXN-100180,2023-08-08,Ring Doorbell Pro,Smart Home,5,218.49,0.05,1092.45,4.99,0.0503,54.95,1152.39,Europe,In-Store,Gift Card,completed,18-24,True,3.6,False
+TXN-100181,2024-10-16,iPad Pro 12.9,Tablets,2,1099.0,0,2198.0,19.99,0.0869,191.01,2409.0,Asia Pacific,Marketplace,Bank Transfer,completed,55-64,True,4.3,False
+TXN-100182,2023-09-02,Fitbit Charge 6,Wearables,5,143.99,0.1,719.95,9.99,0.0719,51.76,781.7,Asia Pacific,Web,PayPal,completed,25-34,False,2.3,False
+TXN-100183,2023-06-27,AirPods Pro 2,Headphones,2,224.1,0.1,448.2,19.99,0.1151,51.59,519.78,Middle East,Mobile App,Bank Transfer,completed,25-34,False,3.8,False
+TXN-100184,2024-10-30,iPhone 15 Pro,Smartphones,2,999.99,0,1999.98,4.99,0.0893,178.6,2183.57,Latin America,Partner API,Gift Card,completed,65+,False,2.0,True
+TXN-100185,2024-04-13,Kindle Paperwhite,E-Readers,1,139.99,0,139.99,4.99,0.0618,8.65,153.63,Middle East,Partner API,Buy Now Pay Later,completed,55-64,True,3.6,False
+TXN-100186,2024-03-11,Smart Watch Ultra,Wearables,4,799.0,0,3196.0,9.99,0.0882,281.89,3487.88,North America,Mobile App,Crypto,completed,18-24,False,4.3,False
+TXN-100187,2023-12-26,Dell XPS 15,Laptops,3,1749.99,0,5249.97,19.99,0.0912,478.8,5748.76,Africa,Marketplace,Gift Card,completed,55-64,False,4.2,False
+TXN-100188,2024-12-21,Portable Charger 20k,Accessories,1,39.99,0,39.99,4.99,0.0727,2.91,47.89,Asia Pacific,In-Store,Buy Now Pay Later,completed,55-64,True,,False
+TXN-100189,2023-05-16,Mechanical Keyboard,Accessories,5,65.0,0.5,325.0,19.99,0.0589,19.14,364.13,Europe,Mobile App,Gift Card,completed,25-34,False,3.7,False
+TXN-100190,2024-02-17,Mechanical Keyboard,Accessories,1,129.99,0,129.99,9.99,0.1038,13.49,153.47,Middle East,In-Store,Gift Card,refunded,35-44,False,3.0,True
+TXN-100191,2023-03-06,MacBook Air M3,Laptops,3,1169.1,0.1,3507.3,9.99,0.0751,263.4,3780.69,Middle East,Partner API,PayPal,pending,25-34,False,4.3,False
+TXN-100192,2023-02-19,Portable Charger 20k,Accessories,1,31.99,0.2,31.99,9.99,0.1126,3.6,45.58,North America,Web,Gift Card,completed,45-54,True,,False
+TXN-100193,2023-05-16,4K Monitor 27in,Monitors,2,300.0,0.5,600.0,4.99,0.1197,71.82,676.81,Africa,In-Store,PayPal,completed,35-44,True,2.8,False
+TXN-100194,2024-03-15,AirPods Pro 2,Headphones,1,224.1,0.1,224.1,9.99,0.1029,23.06,257.15,Africa,Web,Gift Card,completed,25-34,False,,False
+TXN-100195,2024-03-08,NVMe SSD 2TB,Storage,3,179.99,0,539.97,9.99,0.1072,57.88,607.84,Africa,Mobile App,Bank Transfer,completed,45-54,True,2.1,False
+TXN-100196,2024-11-24,Fitbit Charge 6,Wearables,1,135.99,0.15,135.99,9.99,0.0593,8.06,154.04,Europe,Web,Buy Now Pay Later,completed,55-64,False,4.0,False
+TXN-100197,2023-04-13,Sony WH-1000XM5,Headphones,5,314.99,0.1,1574.95,4.99,0.0652,102.69,1682.63,Europe,Web,Buy Now Pay Later,completed,35-44,False,2.3,False
+TXN-100198,2024-12-08,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,9.99,0.0699,81.72,1260.81,North America,In-Store,PayPal,completed,55-64,False,2.9,True
+TXN-100199,2024-06-24,Kindle Paperwhite,E-Readers,2,139.99,0,279.98,4.99,0.0916,25.65,310.62,North America,In-Store,Crypto,completed,55-64,False,4.0,False
+TXN-100200,2023-03-03,MacBook Air M3,Laptops,1,1299.0,0,1299.0,4.99,0.0528,68.59,1372.58,Latin America,Marketplace,Crypto,completed,55-64,False,3.3,False
+TXN-100201,2023-07-28,Smart Watch Ultra,Wearables,2,799.0,0,1598.0,4.99,0.0858,137.11,1740.1,Europe,Marketplace,Crypto,completed,65+,True,3.4,False
+TXN-100202,2024-09-15,Kindle Paperwhite,E-Readers,1,139.99,0,139.99,4.99,0.0817,11.44,156.42,North America,In-Store,Gift Card,completed,65+,False,,False
+TXN-100203,2023-09-23,iPhone 15 Pro,Smartphones,1,699.99,0.3,699.99,4.99,0.1048,73.36,778.34,Europe,In-Store,PayPal,completed,35-44,True,1.6,False
+TXN-100204,2024-05-23,GoPro Hero 12,Cameras,2,399.99,0,799.98,29.99,0.0939,75.12,905.09,Latin America,Marketplace,Crypto,completed,55-64,False,2.8,False
+TXN-100205,2023-01-13,Portable Charger 20k,Accessories,3,39.99,0,119.97,9.99,0.0502,6.02,135.98,Europe,Web,Bank Transfer,completed,25-34,False,4.3,False
+TXN-100206,2023-03-21,Mechanical Keyboard,Accessories,1,129.99,0,129.99,19.99,0.0724,9.41,159.39,Middle East,In-Store,Credit Card,completed,18-24,False,3.6,True
+TXN-100207,2023-12-02,USB-C Hub 7-in-1,Accessories,1,44.99,0.1,44.99,4.99,0.1091,4.91,54.89,North America,Marketplace,Bank Transfer,completed,25-34,False,3.0,False
+TXN-100208,2024-07-13,4K Monitor 27in,Monitors,1,300.0,0.5,300.0,29.99,0.1043,31.29,361.28,Europe,Mobile App,Credit Card,refunded,18-24,False,3.9,False
+TXN-100209,2023-11-11,iPhone 15 Pro,Smartphones,10,999.99,0,9999.9,9.99,0.1094,1093.99,11103.88,North America,Mobile App,Buy Now Pay Later,failed,45-54,False,4.7,False
+TXN-100210,2024-12-18,GoPro Hero 12,Cameras,1,279.99,0.3,279.99,19.99,0.0864,24.19,324.17,Asia Pacific,Partner API,Gift Card,completed,18-24,False,3.2,False
+TXN-100211,2023-11-19,Samsung Galaxy S24,Smartphones,2,594.99,0.3,1189.98,0,0.0683,81.28,1271.26,Latin America,In-Store,Crypto,completed,25-34,True,2.3,False
+TXN-100212,2024-07-02,Dell XPS 15,Laptops,1,1749.99,0,1749.99,4.99,0.0785,137.37,1892.35,Asia Pacific,Mobile App,Bank Transfer,completed,35-44,True,,False
+TXN-100213,2023-12-02,Fitbit Charge 6,Wearables,4,135.99,0.15,543.96,0,0.1085,59.02,602.98,Europe,Web,Gift Card,completed,35-44,False,3.9,False
+TXN-100214,2023-09-13,AirPods Pro 2,Headphones,1,236.55,0.05,236.55,4.99,0.1024,24.22,265.76,North America,Partner API,Credit Card,completed,25-34,True,,False
+TXN-100215,2024-10-22,Kindle Paperwhite,E-Readers,1,111.99,0.2,111.99,4.99,0.0941,10.54,127.52,North America,Marketplace,Buy Now Pay Later,completed,18-24,True,2.6,False
+TXN-100216,2024-04-17,Sony WH-1000XM5,Headphones,1,279.99,0.2,279.99,19.99,0.0586,16.41,316.39,North America,Mobile App,Buy Now Pay Later,completed,65+,False,3.2,False
+TXN-100217,2023-02-05,PS5 Controller,Gaming,1,74.99,0,74.99,4.99,0.1118,8.38,88.36,Middle East,Marketplace,Buy Now Pay Later,completed,35-44,False,3.7,True
+TXN-100218,2023-09-13,GoPro Hero 12,Cameras,1,379.99,0.05,379.99,9.99,0.1058,40.2,430.18,Africa,Marketplace,Credit Card,failed,65+,False,4.2,False
+TXN-100219,2023-08-13,Portable Charger 20k,Accessories,2,37.99,0.05,75.98,0,0.0723,5.49,81.47,North America,In-Store,Credit Card,completed,45-54,False,5.0,False
+TXN-100220,2023-02-27,Dell XPS 15,Laptops,1,1749.99,0,1749.99,4.99,0.1054,184.45,1939.43,Europe,Marketplace,Bank Transfer,completed,25-34,False,3.0,False
+TXN-100221,2024-07-31,PS5 Controller,Gaming,5,74.99,0,374.95,9.99,0.1163,43.61,428.55,Europe,Marketplace,PayPal,completed,45-54,False,1.7,True
+TXN-100222,2023-07-26,Ring Doorbell Pro,Smart Home,1,206.99,0.1,206.99,0,0.1143,23.66,230.65,Europe,In-Store,Gift Card,completed,35-44,True,,False
+TXN-100223,2024-01-18,Sony WH-1000XM5,Headphones,3,279.99,0.2,839.97,19.99,0.1172,98.44,958.4,Africa,Partner API,Buy Now Pay Later,completed,35-44,False,,False
+TXN-100224,2024-07-29,Mechanical Keyboard,Accessories,3,90.99,0.3,272.97,9.99,0.0622,16.98,299.94,Africa,Marketplace,Crypto,completed,55-64,False,4.1,False
+TXN-100225,2024-08-04,AirPods Pro 2,Headphones,3,174.3,0.3,522.9,19.99,0.0774,40.47,583.36,North America,Mobile App,Buy Now Pay Later,completed,55-64,False,2.2,False
+TXN-100226,2023-04-01,Nintendo Switch OLED,Gaming,3,349.99,0,1049.97,29.99,0.0618,64.89,1144.85,Africa,In-Store,Bank Transfer,completed,25-34,False,3.1,False
+TXN-100227,2024-02-28,iPhone 15 Pro,Smartphones,1,949.99,0.05,949.99,4.99,0.0616,58.52,1013.5,Latin America,Partner API,Crypto,completed,18-24,False,3.7,False
+TXN-100228,2023-11-23,Kindle Paperwhite,E-Readers,1,139.99,0,139.99,19.99,0.0706,9.88,169.86,Asia Pacific,Web,Credit Card,completed,45-54,False,3.6,False
+TXN-100229,2024-03-17,MacBook Air M3,Laptops,1,649.5,0.5,649.5,19.99,0.0993,64.5,733.99,Africa,Mobile App,Buy Now Pay Later,completed,25-34,True,,False
+TXN-100230,2024-11-07,iPad Pro 12.9,Tablets,2,989.1,0.1,1978.2,19.99,0.0878,173.69,2171.88,Asia Pacific,In-Store,PayPal,completed,45-54,False,3.1,False
+TXN-100231,2023-07-31,Fitbit Charge 6,Wearables,4,143.99,0.1,575.96,4.99,0.0568,32.71,613.66,Europe,In-Store,Credit Card,completed,18-24,False,3.5,False
+TXN-100232,2024-01-14,GoPro Hero 12,Cameras,1,359.99,0.1,359.99,0,0.112,40.32,400.31,Europe,Partner API,Credit Card,completed,45-54,False,2.9,True
+TXN-100233,2024-08-26,Dell XPS 15,Laptops,1,1662.49,0.05,1662.49,4.99,0.1179,196.01,1863.49,Europe,Marketplace,Credit Card,completed,55-64,False,4.0,False
+TXN-100234,2023-02-05,Portable Charger 20k,Accessories,5,35.99,0.1,179.95,0,0.1132,20.37,200.32,Middle East,Marketplace,Buy Now Pay Later,completed,65+,False,,False
+TXN-100235,2023-02-13,AirPods Pro 2,Headphones,10,249.0,0,2490.0,0,0.0635,158.12,2648.12,Latin America,Web,Gift Card,completed,65+,False,2.8,False
+TXN-100236,2024-06-16,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,9.99,0.11,128.6,1307.69,Latin America,Web,Gift Card,completed,55-64,False,,False
+TXN-100237,2024-07-30,Portable Charger 20k,Accessories,2,33.99,0.15,67.98,19.99,0.1147,7.8,95.77,North America,In-Store,Buy Now Pay Later,completed,45-54,False,3.5,False
+TXN-100238,2024-02-16,Samsung Galaxy S24,Smartphones,1,807.49,0.05,807.49,9.99,0.0977,78.89,896.37,North America,Partner API,Crypto,completed,18-24,False,4.4,True
+TXN-100239,2023-08-22,Fitbit Charge 6,Wearables,1,127.99,0.2,127.99,19.99,0.0979,12.53,160.51,Europe,In-Store,Gift Card,completed,35-44,False,3.8,False
+TXN-100240,2024-01-18,4K Monitor 27in,Monitors,1,479.99,0.2,479.99,9.99,0.1032,49.53,539.51,North America,Marketplace,PayPal,completed,65+,False,,False
+TXN-100241,2023-09-13,Portable Charger 20k,Accessories,1,39.99,0,39.99,19.99,0.1086,4.34,64.32,North America,Partner API,Credit Card,refunded,65+,False,4.2,False
+TXN-100242,2024-04-30,Dell XPS 15,Laptops,3,1749.99,0,5249.97,4.99,0.0812,426.3,5681.26,Middle East,Marketplace,Crypto,completed,35-44,True,3.2,False
+TXN-100243,2023-07-31,Portable Charger 20k,Accessories,3,39.99,0,119.97,0,0.0658,7.89,127.86,Asia Pacific,Partner API,Buy Now Pay Later,completed,65+,True,2.3,False
+TXN-100244,2024-12-27,iPhone 15 Pro,Smartphones,1,899.99,0.1,899.99,19.99,0.0999,89.91,1009.89,Africa,In-Store,Bank Transfer,completed,35-44,False,3.4,False
+TXN-100245,2024-01-19,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,4.99,0.0964,22.17,257.15,Middle East,Marketplace,Buy Now Pay Later,completed,65+,True,3.1,False
+TXN-100246,2023-11-02,Nintendo Switch OLED,Gaming,4,349.99,0,1399.96,9.99,0.1125,157.5,1567.45,Europe,Mobile App,Buy Now Pay Later,completed,18-24,False,4.0,False
+TXN-100247,2023-02-06,Webcam 4K,Accessories,20,89.99,0,1799.8,4.99,0.0772,138.94,1943.73,Middle East,Marketplace,PayPal,completed,65+,False,3.9,False
+TXN-100248,2023-07-05,PS5 Controller,Gaming,2,59.99,0.2,119.98,19.99,0.1114,13.37,153.34,Asia Pacific,Web,Bank Transfer,completed,35-44,False,4.4,False
+TXN-100249,2023-12-06,Kindle Paperwhite,E-Readers,1,118.99,0.15,118.99,4.99,0.1052,12.52,136.5,Asia Pacific,In-Store,Buy Now Pay Later,completed,18-24,False,,False
+TXN-100250,2024-11-28,Portable Charger 20k,Accessories,10,39.99,0,399.9,19.99,0.085,33.99,453.88,Latin America,Marketplace,Crypto,completed,25-34,False,3.1,False
+TXN-100251,2023-12-07,4K Monitor 27in,Monitors,1,479.99,0.2,479.99,0,0.0557,26.74,506.73,Africa,Mobile App,Crypto,completed,18-24,False,4.1,False
+TXN-100252,2024-10-10,AirPods Pro 2,Headphones,2,211.65,0.15,423.3,0,0.093,39.37,462.67,Latin America,Partner API,Bank Transfer,pending,45-54,True,,False
+TXN-100253,2023-01-19,PS5 Controller,Gaming,10,59.99,0.2,599.9,9.99,0.0872,52.31,662.2,Africa,Web,Gift Card,completed,25-34,False,2.1,False
+TXN-100254,2024-06-16,Fitbit Charge 6,Wearables,1,127.99,0.2,127.99,4.99,0.0704,9.01,141.99,Middle East,Marketplace,Crypto,completed,65+,False,4.4,False
+TXN-100255,2023-08-18,iPad Pro 12.9,Tablets,1,769.3,0.3,769.3,19.99,0.0513,39.47,828.76,Africa,Mobile App,PayPal,completed,55-64,False,,False
+TXN-100256,2024-08-31,Samsung Galaxy S24,Smartphones,1,764.99,0.1,764.99,9.99,0.0936,71.6,846.58,North America,Web,Gift Card,completed,18-24,True,3.2,False
+TXN-100257,2024-03-06,Webcam 4K,Accessories,3,89.99,0,269.97,9.99,0.0507,13.69,293.65,Africa,Web,Gift Card,completed,55-64,False,4.4,False
+TXN-100258,2023-07-24,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,0,0.0639,14.7,244.69,Asia Pacific,Marketplace,PayPal,completed,45-54,False,3.6,False
+TXN-100259,2024-08-10,Webcam 4K,Accessories,1,89.99,0,89.99,9.99,0.1135,10.21,110.19,Africa,Partner API,PayPal,pending,55-64,True,2.1,False
+TXN-100260,2023-06-28,Kindle Paperwhite,E-Readers,2,70.0,0.5,140.0,4.99,0.0535,7.49,152.48,North America,In-Store,Crypto,completed,35-44,False,2.1,False
+TXN-100261,2024-03-24,Samsung Galaxy S24,Smartphones,1,849.99,0,849.99,9.99,0.073,62.05,922.03,Middle East,In-Store,Gift Card,completed,35-44,False,,False
+TXN-100262,2024-10-26,4K Monitor 27in,Monitors,1,569.99,0.05,569.99,19.99,0.106,60.42,650.4,Europe,Web,PayPal,completed,18-24,False,,False
+TXN-100263,2024-01-03,Webcam 4K,Accessories,4,76.49,0.15,305.96,0,0.0766,23.44,329.4,Middle East,Web,Gift Card,completed,65+,False,3.5,False
+TXN-100264,2024-11-25,4K Monitor 27in,Monitors,1,599.99,0,599.99,4.99,0.0993,59.58,664.56,Middle East,Marketplace,Gift Card,completed,65+,False,4.0,False
+TXN-100265,2024-01-30,Mechanical Keyboard,Accessories,3,129.99,0,389.97,4.99,0.0973,37.94,432.9,Europe,Marketplace,Buy Now Pay Later,completed,65+,False,3.5,False
+TXN-100266,2023-02-21,AirPods Pro 2,Headphones,1,224.1,0.1,224.1,0,0.1179,26.42,250.52,Middle East,Mobile App,Buy Now Pay Later,completed,45-54,False,,False
+TXN-100267,2024-05-24,Portable Charger 20k,Accessories,2,31.99,0.2,63.98,4.99,0.0583,3.73,72.7,Africa,Web,Credit Card,completed,18-24,True,4.2,False
+TXN-100268,2023-12-16,Fitbit Charge 6,Wearables,5,143.99,0.1,719.95,9.99,0.0819,58.96,788.9,Asia Pacific,Web,PayPal,completed,35-44,False,3.2,False
+TXN-100269,2023-10-26,Dell XPS 15,Laptops,3,1749.99,0,5249.97,4.99,0.1081,567.52,5822.48,Middle East,Marketplace,Crypto,completed,18-24,False,4.2,False
+TXN-100270,2024-02-07,Mechanical Keyboard,Accessories,1,116.99,0.1,116.99,0,0.1151,13.47,130.46,Europe,Partner API,PayPal,completed,18-24,False,,False
+TXN-100271,2024-05-31,Portable Charger 20k,Accessories,1,31.99,0.2,31.99,4.99,0.0913,2.92,39.9,Europe,Partner API,Credit Card,completed,18-24,False,3.5,False
+TXN-100272,2024-11-04,AirPods Pro 2,Headphones,3,249.0,0,747.0,19.99,0.0572,42.73,809.72,Middle East,Marketplace,Crypto,completed,45-54,False,4.5,False
+TXN-100273,2023-05-22,GoPro Hero 12,Cameras,1,379.99,0.05,379.99,4.99,0.1063,40.39,425.37,Latin America,Marketplace,Gift Card,completed,55-64,False,3.6,False
+TXN-100274,2023-12-20,Smart Watch Ultra,Wearables,2,799.0,0,1598.0,9.99,0.0703,112.34,1720.33,Africa,Mobile App,Gift Card,completed,25-34,False,4.1,False
+TXN-100275,2024-06-30,Portable Charger 20k,Accessories,2,33.99,0.15,67.98,4.99,0.1024,6.96,79.93,Asia Pacific,Partner API,Credit Card,completed,18-24,False,,False
+TXN-100276,2023-05-30,iPad Pro 12.9,Tablets,1,934.15,0.15,934.15,29.99,0.0978,91.36,1055.5,North America,In-Store,PayPal,completed,18-24,False,2.1,False
+TXN-100277,2024-12-13,Smart Watch Ultra,Wearables,4,679.15,0.15,2716.6,9.99,0.0666,180.93,2907.52,Asia Pacific,Web,Bank Transfer,completed,65+,False,1.8,False
+TXN-100278,2024-10-10,iPad Pro 12.9,Tablets,2,934.15,0.15,1868.3,19.99,0.1081,201.96,2090.25,Africa,In-Store,Buy Now Pay Later,completed,55-64,False,4.7,False
+TXN-100279,2023-05-03,AirPods Pro 2,Headphones,15,249.0,0,3735.0,29.99,0.1015,379.1,4144.09,Latin America,Web,Bank Transfer,completed,35-44,False,4.3,True
+TXN-100280,2023-02-22,4K Monitor 27in,Monitors,3,599.99,0,1799.97,0,0.0726,130.68,1930.65,Africa,Marketplace,Gift Card,completed,55-64,False,,False
+TXN-100281,2024-03-01,NVMe SSD 2TB,Storage,1,179.99,0,179.99,0,0.0854,15.37,195.36,Middle East,Marketplace,Bank Transfer,completed,25-34,False,3.1,False
+TXN-100282,2023-01-10,Ring Doorbell Pro,Smart Home,2,115.0,0.5,230.0,19.99,0.1187,27.3,277.29,North America,In-Store,Bank Transfer,completed,65+,False,4.0,False
+TXN-100283,2024-01-19,Dell XPS 15,Laptops,1,1574.99,0.1,1574.99,4.99,0.1138,179.23,1759.21,Middle East,Marketplace,Bank Transfer,completed,35-44,False,2.0,False
+TXN-100284,2023-08-07,Smart Watch Ultra,Wearables,2,719.1,0.1,1438.2,0,0.0941,135.33,1573.53,Africa,Partner API,Credit Card,completed,65+,False,4.6,False
+TXN-100285,2023-07-02,Sony WH-1000XM5,Headphones,1,297.49,0.15,297.49,0,0.0551,16.39,313.88,Asia Pacific,Marketplace,Credit Card,completed,25-34,False,3.4,False
+TXN-100286,2024-09-25,Nintendo Switch OLED,Gaming,1,297.49,0.15,297.49,4.99,0.0949,28.23,330.71,North America,Marketplace,Credit Card,completed,18-24,False,2.2,False
+TXN-100287,2024-11-07,Fitbit Charge 6,Wearables,2,159.99,0,319.98,19.99,0.0767,24.54,364.51,North America,Partner API,PayPal,completed,25-34,False,4.3,False
+TXN-100288,2024-10-25,Sony WH-1000XM5,Headphones,1,279.99,0.2,279.99,29.99,0.1107,30.99,340.97,Asia Pacific,Web,Buy Now Pay Later,completed,25-34,True,,False
+TXN-100289,2023-12-19,USB-C Hub 7-in-1,Accessories,2,34.99,0.3,69.98,4.99,0.1024,7.17,82.14,Europe,Partner API,Gift Card,completed,25-34,False,3.8,False
+TXN-100290,2024-07-16,Dell XPS 15,Laptops,1,1487.49,0.15,1487.49,19.99,0.1096,163.03,1670.51,Latin America,Marketplace,Credit Card,completed,18-24,False,,False
+TXN-100291,2023-10-19,Webcam 4K,Accessories,10,85.49,0.05,854.9,9.99,0.0664,56.77,921.66,Middle East,Web,PayPal,completed,45-54,False,3.0,False
+TXN-100292,2023-11-17,Portable Charger 20k,Accessories,2,31.99,0.2,63.98,29.99,0.0618,3.95,97.92,Europe,Mobile App,Gift Card,completed,45-54,False,2.3,False
+TXN-100293,2023-06-29,Webcam 4K,Accessories,2,85.49,0.05,170.98,4.99,0.0886,15.15,191.12,Africa,Marketplace,Credit Card,completed,25-34,False,4.4,False
+TXN-100294,2024-08-15,MacBook Air M3,Laptops,5,1039.2,0.2,5196.0,9.99,0.1069,555.45,5761.44,Latin America,Marketplace,PayPal,refunded,55-64,False,4.9,False
+TXN-100295,2023-10-25,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,9.99,0.1013,35.45,395.43,Europe,Partner API,Buy Now Pay Later,completed,45-54,False,3.9,False
+TXN-100296,2024-08-02,Ring Doorbell Pro,Smart Home,3,195.49,0.15,586.47,0,0.0611,35.83,622.3,Middle East,Mobile App,Gift Card,completed,35-44,True,3.5,True
+TXN-100297,2024-02-02,PS5 Controller,Gaming,1,63.74,0.15,63.74,4.99,0.1054,6.72,75.45,Latin America,Partner API,Credit Card,completed,65+,False,,False
+TXN-100298,2024-10-31,GoPro Hero 12,Cameras,4,399.99,0,1599.96,4.99,0.0622,99.52,1704.47,Latin America,In-Store,Buy Now Pay Later,completed,18-24,False,4.5,False
+TXN-100299,2024-05-28,PS5 Controller,Gaming,124,67.49,0.1,8368.76,4.99,0.0923,772.44,9146.19,Europe,Partner API,PayPal,completed,55-64,False,2.5,False
+TXN-100300,2024-11-22,Dell XPS 15,Laptops,3,1662.49,0.05,4987.47,4.99,0.0579,288.77,5281.23,Latin America,Partner API,PayPal,completed,65+,False,,True
+TXN-100301,2023-05-31,Portable Charger 20k,Accessories,2,39.99,0,79.98,4.99,0.1124,8.99,93.96,North America,Mobile App,Crypto,refunded,55-64,False,3.7,True
+TXN-100302,2024-05-08,Fitbit Charge 6,Wearables,10,159.99,0,1599.9,9.99,0.083,132.79,1742.68,Europe,Mobile App,Bank Transfer,completed,55-64,False,3.6,False
+TXN-100303,2023-05-16,Nintendo Switch OLED,Gaming,5,314.99,0.1,1574.95,0,0.0765,120.48,1695.43,North America,Web,PayPal,completed,55-64,False,3.8,False
+TXN-100304,2023-04-06,Ring Doorbell Pro,Smart Home,2,183.99,0.2,367.98,4.99,0.1027,37.79,410.76,Latin America,Mobile App,Buy Now Pay Later,completed,18-24,False,3.2,True
+TXN-100305,2023-12-25,NVMe SSD 2TB,Storage,2,125.99,0.3,251.98,4.99,0.1038,26.16,283.13,Middle East,Marketplace,Credit Card,completed,35-44,False,4.5,False
+TXN-100306,2023-01-08,Ring Doorbell Pro,Smart Home,4,218.49,0.05,873.96,0,0.0996,87.05,961.01,Middle East,Marketplace,Credit Card,completed,45-54,False,3.0,False
+TXN-100307,2024-08-01,Sony WH-1000XM5,Headphones,2,314.99,0.1,629.98,4.99,0.0875,55.12,690.09,Asia Pacific,Marketplace,Crypto,failed,45-54,False,4.2,False
+TXN-100308,2024-12-23,PS5 Controller,Gaming,2,67.49,0.1,134.98,29.99,0.0904,12.2,177.17,Latin America,Mobile App,Gift Card,completed,25-34,False,4.6,False
+TXN-100309,2024-12-24,NVMe SSD 2TB,Storage,2,170.99,0.05,341.98,9.99,0.0988,33.79,385.76,North America,Mobile App,Bank Transfer,pending,18-24,True,3.5,False
+TXN-100310,2024-01-29,MacBook Air M3,Laptops,1,1299.0,0,1299.0,0,0.0526,68.33,1367.33,Latin America,Marketplace,Gift Card,completed,65+,True,4.2,False
+TXN-100311,2023-07-19,4K Monitor 27in,Monitors,1,479.99,0.2,479.99,19.99,0.0863,41.42,541.4,North America,Marketplace,Buy Now Pay Later,completed,25-34,False,3.1,False
+TXN-100312,2024-02-20,AirPods Pro 2,Headphones,1,249.0,0,249.0,4.99,0.0969,24.13,278.12,Middle East,Mobile App,Buy Now Pay Later,completed,65+,True,3.7,False
+TXN-100313,2024-09-12,Smart Watch Ultra,Wearables,5,759.05,0.05,3795.25,29.99,0.0694,263.39,4088.63,Europe,Partner API,Bank Transfer,completed,35-44,False,2.2,False
+TXN-100314,2024-07-04,Fitbit Charge 6,Wearables,1,159.99,0,159.99,4.99,0.068,10.88,175.86,Middle East,In-Store,Gift Card,completed,45-54,False,4.1,False
+TXN-100315,2023-09-22,4K Monitor 27in,Monitors,3,479.99,0.2,1439.97,19.99,0.0837,120.53,1580.49,North America,Partner API,Gift Card,completed,25-34,False,3.3,False
+TXN-100316,2024-11-20,Smart Watch Ultra,Wearables,1,639.2,0.2,639.2,0,0.0565,36.11,675.31,Africa,In-Store,Credit Card,completed,25-34,False,2.7,False
+TXN-100317,2023-07-24,AirPods Pro 2,Headphones,10,211.65,0.15,2116.5,19.99,0.0849,179.69,2316.18,Europe,Mobile App,Crypto,completed,25-34,False,3.1,False
+TXN-100318,2024-07-08,Dell XPS 15,Laptops,5,1487.49,0.15,7437.45,9.99,0.093,691.68,8139.12,North America,Partner API,Crypto,completed,45-54,False,4.8,False
+TXN-100319,2024-03-09,GoPro Hero 12,Cameras,1,339.99,0.15,339.99,0,0.0868,29.51,369.5,Latin America,Marketplace,Credit Card,completed,45-54,False,2.2,False
+TXN-100320,2023-11-30,Nintendo Switch OLED,Gaming,3,349.99,0,1049.97,0,0.0907,95.23,1145.2,Asia Pacific,Marketplace,Crypto,completed,35-44,False,4.6,False
+TXN-100321,2024-02-15,AirPods Pro 2,Headphones,2,249.0,0,498.0,9.99,0.0761,37.9,545.89,Asia Pacific,Partner API,PayPal,completed,55-64,False,4.0,False
+TXN-100322,2023-06-03,Smart Watch Ultra,Wearables,2,759.05,0.05,1518.1,0,0.1171,177.77,1695.87,Latin America,Web,PayPal,completed,25-34,False,3.0,False
+TXN-100323,2023-09-18,Portable Charger 20k,Accessories,1,39.99,0,39.99,0,0.0651,2.6,42.59,Latin America,Web,Bank Transfer,completed,35-44,False,3.7,False
+TXN-100324,2023-07-23,PS5 Controller,Gaming,1,74.99,0,74.99,19.99,0.1174,8.8,103.78,Middle East,Marketplace,Gift Card,completed,25-34,False,3.9,False
+TXN-100325,2023-05-29,4K Monitor 27in,Monitors,5,569.99,0.05,2849.95,4.99,0.0942,268.47,3123.41,Europe,In-Store,Bank Transfer,completed,55-64,False,2.0,False
+TXN-100326,2024-02-09,Kindle Paperwhite,E-Readers,1,118.99,0.15,118.99,9.99,0.0924,10.99,139.97,Asia Pacific,Partner API,Crypto,completed,55-64,False,2.5,True
+TXN-100327,2023-06-20,Kindle Paperwhite,E-Readers,3,97.99,0.3,293.97,9.99,0.0556,16.34,320.3,Latin America,Web,Credit Card,completed,45-54,True,,False
+TXN-100328,2024-02-04,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,0,0.1152,134.68,1303.78,Asia Pacific,Mobile App,PayPal,completed,45-54,False,,False
+TXN-100329,2024-04-23,iPhone 15 Pro,Smartphones,1,949.99,0.05,949.99,19.99,0.1105,104.97,1074.95,Middle East,In-Store,Buy Now Pay Later,completed,65+,False,3.4,False
+TXN-100330,2024-05-08,Portable Charger 20k,Accessories,2,35.99,0.1,71.98,4.99,0.1136,8.18,85.15,Middle East,Mobile App,Credit Card,completed,35-44,False,3.0,True
+TXN-100331,2024-05-03,Sony WH-1000XM5,Headphones,1,314.99,0.1,314.99,0,0.1145,36.07,351.06,Asia Pacific,Web,Bank Transfer,completed,55-64,False,3.6,False
+TXN-100332,2024-01-23,Smart Watch Ultra,Wearables,2,799.0,0,1598.0,9.99,0.0952,152.13,1760.12,Europe,In-Store,Credit Card,completed,25-34,False,4.1,False
+TXN-100333,2024-04-11,Mechanical Keyboard,Accessories,1,129.99,0,129.99,0,0.0577,7.5,137.49,Middle East,Partner API,Crypto,completed,45-54,False,2.4,False
+TXN-100334,2023-01-09,iPhone 15 Pro,Smartphones,1,999.99,0,999.99,4.99,0.1001,100.1,1105.08,Europe,Web,PayPal,completed,25-34,False,4.2,False
+TXN-100335,2023-05-30,PS5 Controller,Gaming,2,63.74,0.15,127.48,4.99,0.109,13.9,146.37,North America,In-Store,Bank Transfer,completed,45-54,False,4.3,False
+TXN-100336,2024-03-29,iPhone 15 Pro,Smartphones,1,849.99,0.15,849.99,0,0.104,88.4,938.39,Europe,Web,PayPal,completed,18-24,False,4.0,False
+TXN-100337,2023-05-06,Nintendo Switch OLED,Gaming,1,297.49,0.15,297.49,9.99,0.0885,26.33,333.81,Asia Pacific,Partner API,Gift Card,completed,35-44,True,2.7,False
+TXN-100338,2023-09-06,Mechanical Keyboard,Accessories,1,129.99,0,129.99,4.99,0.0584,7.59,142.57,North America,Web,Buy Now Pay Later,completed,45-54,False,2.1,False
+TXN-100339,2023-03-03,MacBook Air M3,Laptops,3,1234.05,0.05,3702.15,29.99,0.1032,382.06,4114.2,North America,In-Store,Gift Card,completed,55-64,True,,False
+TXN-100340,2023-07-17,Smart Watch Ultra,Wearables,3,679.15,0.15,2037.45,19.99,0.0807,164.42,2221.86,North America,Partner API,Crypto,completed,35-44,True,3.4,False
+TXN-100341,2023-10-09,Webcam 4K,Accessories,1,89.99,0,89.99,4.99,0.1013,9.12,104.1,Middle East,Marketplace,PayPal,completed,25-34,False,2.8,False
+TXN-100342,2024-09-26,iPhone 15 Pro,Smartphones,3,899.99,0.1,2699.97,9.99,0.1118,301.86,3011.82,Asia Pacific,Marketplace,PayPal,completed,18-24,False,4.0,False
+TXN-100343,2024-06-19,Sony WH-1000XM5,Headphones,2,332.49,0.05,664.98,9.99,0.0577,38.37,713.34,Africa,Web,Credit Card,completed,25-34,False,2.6,False
+TXN-100344,2024-09-30,Dell XPS 15,Laptops,1,1574.99,0.1,1574.99,4.99,0.0843,132.77,1712.75,Africa,Marketplace,Crypto,completed,25-34,True,,False
+TXN-100345,2024-01-05,Webcam 4K,Accessories,5,71.99,0.2,359.95,4.99,0.0947,34.09,399.03,Middle East,Partner API,Crypto,completed,18-24,False,4.1,False
+TXN-100346,2024-06-28,MacBook Air M3,Laptops,10,909.3,0.3,9093.0,0,0.1008,916.57,10009.57,Latin America,Mobile App,PayPal,completed,25-34,False,3.7,False
+TXN-100347,2023-06-20,Portable Charger 20k,Accessories,1,35.99,0.1,35.99,9.99,0.1118,4.02,50.0,Europe,Marketplace,Bank Transfer,completed,65+,False,3.8,False
+TXN-100348,2024-10-10,Nintendo Switch OLED,Gaming,2,175.0,0.5,350.0,19.99,0.0789,27.61,397.6,Latin America,In-Store,Buy Now Pay Later,completed,55-64,False,3.7,False
+TXN-100349,2023-10-19,PS5 Controller,Gaming,10,71.24,0.05,712.4,4.99,0.1008,71.81,789.2,Middle East,Web,Buy Now Pay Later,completed,35-44,True,2.7,False
+TXN-100350,2024-06-07,iPhone 15 Pro,Smartphones,3,699.99,0.3,2099.97,19.99,0.1143,240.03,2359.99,Middle East,Marketplace,Buy Now Pay Later,completed,18-24,False,2.3,False
+TXN-100351,2024-08-05,Portable Charger 20k,Accessories,1,39.99,0,39.99,4.99,0.0899,3.6,48.58,Europe,Web,Gift Card,completed,45-54,False,4.4,False
+TXN-100352,2023-03-22,Dell XPS 15,Laptops,2,1662.49,0.05,3324.98,9.99,0.0903,300.25,3635.22,North America,In-Store,Crypto,completed,45-54,False,2.2,False
+TXN-100353,2024-06-20,Ring Doorbell Pro,Smart Home,5,206.99,0.1,1034.95,9.99,0.0538,55.68,1100.62,North America,In-Store,Buy Now Pay Later,completed,35-44,False,3.9,False
+TXN-100354,2024-02-08,4K Monitor 27in,Monitors,3,539.99,0.1,1619.97,0,0.0802,129.92,1749.89,Europe,Mobile App,Crypto,completed,55-64,True,2.8,False
+TXN-100355,2024-05-14,Mechanical Keyboard,Accessories,3,129.99,0,389.97,0,0.0892,34.79,424.76,Latin America,Marketplace,PayPal,completed,65+,False,2.8,False
+TXN-100356,2023-11-25,Portable Charger 20k,Accessories,1,33.99,0.15,33.99,4.99,0.0744,2.53,41.51,Asia Pacific,Marketplace,Gift Card,completed,35-44,False,3.8,False
+TXN-100357,2024-12-02,4K Monitor 27in,Monitors,2,569.99,0.05,1139.98,19.99,0.0663,75.58,1235.55,Asia Pacific,Mobile App,Gift Card,completed,18-24,True,3.8,False
+TXN-100358,2023-01-24,Fitbit Charge 6,Wearables,1,135.99,0.15,135.99,0,0.0815,11.08,147.07,Asia Pacific,Mobile App,Gift Card,completed,25-34,False,3.8,False
+TXN-100359,2023-03-03,iPhone 15 Pro,Smartphones,1,699.99,0.3,699.99,4.99,0.0679,47.53,752.51,Asia Pacific,Mobile App,Gift Card,completed,18-24,False,1.3,False
+TXN-100360,2023-10-27,GoPro Hero 12,Cameras,3,279.99,0.3,839.97,4.99,0.0576,48.38,893.34,Africa,Partner API,PayPal,failed,55-64,True,3.5,False
+TXN-100361,2023-01-23,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,4.99,0.1148,134.21,1308.3,North America,Mobile App,Buy Now Pay Later,completed,45-54,False,1.5,False
+TXN-100362,2023-03-05,PS5 Controller,Gaming,2,74.99,0,149.98,29.99,0.0851,12.76,192.73,Africa,In-Store,Bank Transfer,completed,18-24,False,3.1,False
+TXN-100363,2024-10-02,Sony WH-1000XM5,Headphones,1,332.49,0.05,332.49,29.99,0.0929,30.89,393.37,Africa,Mobile App,Bank Transfer,completed,25-34,False,4.5,False
+TXN-100364,2023-07-27,Smart Watch Ultra,Wearables,1,679.15,0.15,679.15,9.99,0.0979,66.49,755.63,Europe,In-Store,Gift Card,completed,55-64,False,4.5,False
+TXN-100365,2023-05-02,Portable Charger 20k,Accessories,5,37.99,0.05,189.95,9.99,0.1164,22.11,222.05,Europe,In-Store,PayPal,completed,35-44,False,3.0,False
+TXN-100366,2024-09-18,GoPro Hero 12,Cameras,1,399.99,0,399.99,0,0.0518,20.72,420.71,Middle East,In-Store,Buy Now Pay Later,completed,25-34,False,1.6,False
+TXN-100367,2023-07-08,Webcam 4K,Accessories,1,71.99,0.2,71.99,4.99,0.0955,6.88,83.86,Latin America,Partner API,Bank Transfer,completed,25-34,False,,False
+TXN-100368,2023-07-27,iPhone 15 Pro,Smartphones,5,699.99,0.3,3499.95,0,0.097,339.5,3839.45,Europe,Web,PayPal,refunded,45-54,False,4.3,False
+TXN-100369,2023-11-17,Mechanical Keyboard,Accessories,2,129.99,0,259.98,9.99,0.0766,19.91,289.88,Latin America,Marketplace,Gift Card,completed,55-64,True,3.4,False
+TXN-100370,2023-02-10,Samsung Galaxy S24,Smartphones,4,849.99,0,3399.96,4.99,0.1189,404.26,3809.21,Middle East,Partner API,Buy Now Pay Later,completed,18-24,False,3.3,False
+TXN-100371,2024-06-13,Fitbit Charge 6,Wearables,2,151.99,0.05,303.98,9.99,0.0538,16.35,330.32,Europe,Partner API,Gift Card,completed,65+,True,3.7,False
+TXN-100372,2024-08-27,Smart Watch Ultra,Wearables,1,759.05,0.05,759.05,4.99,0.0625,47.44,811.48,Africa,Mobile App,Bank Transfer,completed,35-44,False,2.3,False
+TXN-100373,2024-06-07,4K Monitor 27in,Monitors,2,599.99,0,1199.98,9.99,0.1009,121.08,1331.05,Middle East,Mobile App,Bank Transfer,completed,18-24,False,3.7,False
+TXN-100374,2023-11-12,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,9.99,0.0536,18.76,378.74,Asia Pacific,Partner API,Crypto,completed,18-24,False,1.2,False
+TXN-100375,2024-05-20,iPhone 15 Pro,Smartphones,2,799.99,0.2,1599.98,4.99,0.0504,80.64,1685.61,Europe,Mobile App,Buy Now Pay Later,completed,45-54,False,3.8,True
+TXN-100376,2023-07-09,Smart Watch Ultra,Wearables,1,719.1,0.1,719.1,19.99,0.0645,46.38,785.47,Europe,Web,Gift Card,completed,25-34,True,4.3,False
+TXN-100377,2024-09-17,MacBook Air M3,Laptops,1,1234.05,0.05,1234.05,0,0.097,119.7,1353.75,Africa,Marketplace,Buy Now Pay Later,completed,25-34,False,3.1,True
+TXN-100378,2024-07-17,Fitbit Charge 6,Wearables,1,127.99,0.2,127.99,19.99,0.1031,13.2,161.18,North America,In-Store,Bank Transfer,completed,65+,False,3.3,False
+TXN-100379,2023-03-31,iPad Pro 12.9,Tablets,2,1099.0,0,2198.0,9.99,0.094,206.61,2414.6,Latin America,Marketplace,Gift Card,completed,55-64,False,3.7,False
+TXN-100380,2023-07-04,Sony WH-1000XM5,Headphones,2,314.99,0.1,629.98,9.99,0.0848,53.42,693.39,Middle East,Mobile App,Gift Card,completed,25-34,True,,False
+TXN-100381,2023-02-16,Dell XPS 15,Laptops,3,1749.99,0,5249.97,9.99,0.079,414.75,5674.71,Asia Pacific,In-Store,Buy Now Pay Later,completed,25-34,True,4.0,False
+TXN-100382,2024-12-03,MacBook Air M3,Laptops,1,1169.1,0.1,1169.1,4.99,0.0504,58.92,1233.01,Asia Pacific,In-Store,Bank Transfer,completed,55-64,True,2.6,False
+TXN-100383,2024-10-04,Webcam 4K,Accessories,5,76.49,0.15,382.45,9.99,0.0837,32.01,424.45,Latin America,Marketplace,Crypto,completed,45-54,True,3.0,False
+TXN-100384,2023-12-29,Nintendo Switch OLED,Gaming,2,349.99,0,699.98,9.99,0.0732,51.24,761.21,North America,Mobile App,Crypto,completed,35-44,False,4.3,False
+TXN-100385,2023-11-19,USB-C Hub 7-in-1,Accessories,1,49.99,0,49.99,9.99,0.0716,3.58,63.56,Africa,Web,Crypto,completed,45-54,False,4.3,False
+TXN-100386,2023-04-05,NVMe SSD 2TB,Storage,1,179.99,0,179.99,9.99,0.1044,18.79,208.77,Latin America,Marketplace,Credit Card,completed,55-64,False,4.5,False
+TXN-100387,2024-06-12,NVMe SSD 2TB,Storage,1,170.99,0.05,170.99,9.99,0.0569,9.73,190.71,Africa,Mobile App,PayPal,completed,45-54,False,3.6,True
+TXN-100388,2023-02-17,Samsung Galaxy S24,Smartphones,3,764.99,0.1,2294.97,0,0.0827,189.79,2484.76,North America,Marketplace,Gift Card,completed,18-24,False,2.6,False
+TXN-100389,2023-06-02,Fitbit Charge 6,Wearables,1,151.99,0.05,151.99,4.99,0.0582,8.85,165.83,Europe,In-Store,Credit Card,completed,55-64,True,3.1,False
+TXN-100390,2023-11-15,Sony WH-1000XM5,Headphones,10,279.99,0.2,2799.9,9.99,0.062,173.59,2983.48,Middle East,In-Store,Buy Now Pay Later,completed,25-34,True,3.9,False
+TXN-100391,2024-10-06,Samsung Galaxy S24,Smartphones,1,807.49,0.05,807.49,9.99,0.1124,90.76,908.24,Africa,Partner API,Buy Now Pay Later,completed,35-44,False,3.9,False
+TXN-100392,2023-04-10,4K Monitor 27in,Monitors,2,599.99,0,1199.98,19.99,0.0989,118.68,1338.65,Latin America,In-Store,Gift Card,completed,45-54,False,2.7,False
+TXN-100393,2023-12-05,Ring Doorbell Pro,Smart Home,1,218.49,0.05,218.49,0,0.1142,24.95,243.44,Asia Pacific,Partner API,Bank Transfer,completed,45-54,True,3.4,False
+TXN-100394,2023-04-20,PS5 Controller,Gaming,2,74.99,0,149.98,0,0.1072,16.08,166.06,Asia Pacific,Marketplace,Gift Card,completed,35-44,False,3.3,False
+TXN-100395,2024-12-11,Smart Watch Ultra,Wearables,1,719.1,0.1,719.1,0,0.0646,46.45,765.55,Middle East,Partner API,Bank Transfer,completed,35-44,False,3.9,False
+TXN-100396,2023-04-10,Portable Charger 20k,Accessories,4,39.99,0,159.96,9.99,0.0728,11.65,181.6,Latin America,Mobile App,Crypto,pending,18-24,True,3.8,False
+TXN-100397,2024-08-17,Nintendo Switch OLED,Gaming,2,297.49,0.15,594.98,0,0.1072,63.78,658.76,Africa,Web,PayPal,completed,45-54,False,3.7,False
+TXN-100398,2024-03-21,Nintendo Switch OLED,Gaming,1,297.49,0.15,297.49,9.99,0.1143,34.0,341.48,Africa,In-Store,Credit Card,completed,55-64,False,4.3,True
+TXN-100399,2023-04-23,Smart Watch Ultra,Wearables,10,799.0,0,7990.0,9.99,0.1185,946.81,8946.8,Asia Pacific,Web,PayPal,completed,55-64,False,4.0,False
+TXN-100400,2024-01-29,Mechanical Keyboard,Accessories,2,110.49,0.15,220.98,4.99,0.0632,13.97,239.94,Asia Pacific,Partner API,PayPal,completed,65+,False,,False
+TXN-100401,2023-05-20,iPhone 15 Pro,Smartphones,1,799.99,0.2,799.99,9.99,0.1182,94.56,904.54,North America,Mobile App,Gift Card,completed,45-54,False,3.4,False
+TXN-100402,2024-05-25,4K Monitor 27in,Monitors,1,599.99,0,599.99,4.99,0.0505,30.3,635.28,Africa,Mobile App,Gift Card,completed,45-54,False,,True
+TXN-100403,2023-05-26,Webcam 4K,Accessories,3,89.99,0,269.97,4.99,0.0983,26.54,301.5,Africa,Marketplace,Crypto,completed,18-24,True,3.8,False
+TXN-100404,2023-12-18,MacBook Air M3,Laptops,3,1169.1,0.1,3507.3,9.99,0.0929,325.83,3843.12,Middle East,Web,Bank Transfer,completed,45-54,False,4.6,False
+TXN-100405,2024-07-31,Fitbit Charge 6,Wearables,1,135.99,0.15,135.99,9.99,0.0713,9.7,155.68,Asia Pacific,Web,Gift Card,completed,25-34,True,2.9,False
+TXN-100406,2023-10-12,iPhone 15 Pro,Smartphones,1,999.99,0,999.99,4.99,0.1096,109.6,1114.58,Asia Pacific,Mobile App,Buy Now Pay Later,completed,35-44,True,3.8,False
+TXN-100407,2023-08-30,Sony WH-1000XM5,Headphones,3,332.49,0.05,997.47,0,0.1048,104.53,1102.0,Latin America,Mobile App,Buy Now Pay Later,completed,35-44,True,3.8,False
+TXN-100408,2024-10-14,Webcam 4K,Accessories,3,85.49,0.05,256.47,4.99,0.0962,24.67,286.13,Europe,Mobile App,Buy Now Pay Later,completed,35-44,True,4.1,False
+TXN-100409,2024-06-29,AirPods Pro 2,Headphones,2,224.1,0.1,448.2,4.99,0.1164,52.17,505.36,Europe,Partner API,Gift Card,completed,45-54,False,,False
+TXN-100410,2024-06-26,iPhone 15 Pro,Smartphones,1,849.99,0.15,849.99,4.99,0.0721,61.28,916.26,Africa,Web,Credit Card,refunded,65+,False,3.4,False
+TXN-100411,2024-02-05,GoPro Hero 12,Cameras,1,399.99,0,399.99,0,0.0958,38.32,438.31,Latin America,Mobile App,Gift Card,completed,25-34,False,4.9,False
+TXN-100412,2023-04-17,iPhone 15 Pro,Smartphones,3,799.99,0.2,2399.97,0,0.0568,136.32,2536.29,Africa,Partner API,Crypto,completed,35-44,False,1.6,False
+TXN-100413,2024-12-26,Ring Doorbell Pro,Smart Home,3,183.99,0.2,551.97,29.99,0.0947,52.27,634.23,North America,Web,Buy Now Pay Later,completed,65+,False,4.0,False
+TXN-100414,2024-03-13,4K Monitor 27in,Monitors,3,599.99,0,1799.97,4.99,0.1197,215.46,2020.42,Africa,In-Store,Crypto,completed,18-24,False,3.2,False
+TXN-100415,2023-07-25,Samsung Galaxy S24,Smartphones,1,679.99,0.2,679.99,0,0.0549,37.33,717.32,Middle East,Partner API,PayPal,completed,18-24,False,3.3,False
+TXN-100416,2024-08-08,Dell XPS 15,Laptops,5,1487.49,0.15,7437.45,0,0.0551,409.8,7847.25,Africa,In-Store,Bank Transfer,completed,45-54,False,1.1,True
+TXN-100417,2024-06-11,USB-C Hub 7-in-1,Accessories,1,42.49,0.15,42.49,19.99,0.0902,3.83,66.31,Africa,Partner API,Bank Transfer,completed,65+,True,1.2,False
+TXN-100418,2023-11-07,Webcam 4K,Accessories,1,80.99,0.1,80.99,29.99,0.0733,5.94,116.92,Latin America,Web,Gift Card,failed,65+,True,4.3,False
+TXN-100419,2024-01-29,4K Monitor 27in,Monitors,3,599.99,0,1799.97,0,0.0888,159.84,1959.81,Africa,Mobile App,Crypto,completed,18-24,False,4.4,False
+TXN-100420,2024-05-15,iPad Pro 12.9,Tablets,1,1099.0,0,1099.0,9.99,0.0915,100.56,1209.55,Latin America,Web,Buy Now Pay Later,completed,45-54,False,1.5,False
+TXN-100421,2024-11-14,Nintendo Switch OLED,Gaming,3,349.99,0,1049.97,0,0.1065,111.82,1161.79,Middle East,Partner API,Gift Card,completed,55-64,False,2.7,False
+TXN-100422,2023-09-06,Sony WH-1000XM5,Headphones,2,349.99,0,699.98,19.99,0.0933,65.31,785.28,Africa,Mobile App,Credit Card,completed,18-24,False,2.1,False
+TXN-100423,2024-09-22,Portable Charger 20k,Accessories,1,31.99,0.2,31.99,0,0.0916,2.93,34.92,Europe,Web,PayPal,completed,65+,False,4.7,False
+TXN-100424,2023-06-27,Sony WH-1000XM5,Headphones,1,244.99,0.3,244.99,0,0.0532,13.03,258.02,Asia Pacific,Web,Credit Card,completed,45-54,False,3.7,False
+TXN-100425,2023-06-11,Portable Charger 20k,Accessories,1,39.99,0,39.99,19.99,0.0929,3.72,63.7,North America,Partner API,Credit Card,completed,25-34,True,3.8,False
+TXN-100426,2024-02-26,Webcam 4K,Accessories,3,89.99,0,269.97,9.99,0.0866,23.38,303.34,Europe,Mobile App,Buy Now Pay Later,completed,55-64,False,3.8,False
+TXN-100427,2024-06-26,Fitbit Charge 6,Wearables,1,159.99,0,159.99,0,0.0582,9.31,169.3,North America,Marketplace,Crypto,completed,55-64,False,3.8,False
+TXN-100428,2024-04-30,Samsung Galaxy S24,Smartphones,1,722.49,0.15,722.49,9.99,0.1178,85.11,817.59,Latin America,Mobile App,PayPal,completed,18-24,True,2.9,False
+TXN-100429,2023-02-23,Nintendo Switch OLED,Gaming,2,279.99,0.2,559.98,4.99,0.0573,32.09,597.06,Middle East,Mobile App,PayPal,completed,45-54,True,,False
+TXN-100430,2023-11-30,4K Monitor 27in,Monitors,2,569.99,0.05,1139.98,0,0.0974,111.03,1251.01,Europe,Web,Crypto,completed,25-34,False,3.2,False
+TXN-100431,2024-09-16,Webcam 4K,Accessories,2,89.99,0,179.98,4.99,0.0651,11.72,196.69,Latin America,Mobile App,Bank Transfer,completed,45-54,False,4.7,False
+TXN-100432,2024-04-21,Sony WH-1000XM5,Headphones,1,314.99,0.1,314.99,4.99,0.0578,18.21,338.19,Latin America,Partner API,PayPal,completed,25-34,False,4.2,False
+TXN-100433,2024-02-26,Ring Doorbell Pro,Smart Home,5,206.99,0.1,1034.95,9.99,0.0661,68.41,1113.35,Middle East,Partner API,PayPal,completed,45-54,False,,False
+TXN-100434,2023-06-02,Kindle Paperwhite,E-Readers,1,132.99,0.05,132.99,0,0.1149,15.28,148.27,Middle East,Web,Bank Transfer,failed,18-24,False,3.5,False
+TXN-100435,2023-09-04,USB-C Hub 7-in-1,Accessories,2,42.49,0.15,84.98,19.99,0.0817,6.94,111.91,North America,Marketplace,Credit Card,completed,45-54,False,,False
+TXN-100436,2024-08-07,MacBook Air M3,Laptops,1,1104.15,0.15,1104.15,0,0.0821,90.65,1194.8,Africa,Marketplace,Credit Card,pending,45-54,False,3.3,False
+TXN-100437,2024-01-30,PS5 Controller,Gaming,2,63.74,0.15,127.48,0,0.0939,11.97,139.45,Africa,In-Store,Buy Now Pay Later,completed,45-54,False,3.8,False
+TXN-100438,2023-02-26,iPad Pro 12.9,Tablets,3,1099.0,0,3297.0,19.99,0.1015,334.65,3651.64,Middle East,In-Store,Credit Card,completed,35-44,False,3.2,False
+TXN-100439,2023-12-09,Smart Watch Ultra,Wearables,3,719.1,0.1,2157.3,9.99,0.0597,128.79,2296.08,Europe,Marketplace,Credit Card,completed,65+,False,4.1,False
+TXN-100440,2024-04-08,GoPro Hero 12,Cameras,2,379.99,0.05,759.98,0,0.0761,57.83,817.81,Latin America,Marketplace,Buy Now Pay Later,completed,45-54,False,3.2,False
+TXN-100441,2023-07-03,MacBook Air M3,Laptops,1,1039.2,0.2,1039.2,0,0.0773,80.33,1119.53,Asia Pacific,Web,Credit Card,completed,18-24,False,4.4,False
+TXN-100442,2023-12-22,iPhone 15 Pro,Smartphones,1,699.99,0.3,699.99,4.99,0.0592,41.44,746.42,Latin America,Partner API,Gift Card,completed,35-44,False,,False
+TXN-100443,2024-11-02,Kindle Paperwhite,E-Readers,4,125.99,0.1,503.96,4.99,0.0905,45.61,554.56,Africa,In-Store,Bank Transfer,completed,65+,False,3.7,False
+TXN-100444,2023-02-18,Fitbit Charge 6,Wearables,1,159.99,0,159.99,4.99,0.118,18.88,183.86,Europe,In-Store,Crypto,completed,25-34,False,2.9,False
+TXN-100445,2024-03-27,Sony WH-1000XM5,Headphones,1,349.99,0,349.99,29.99,0.0902,31.57,411.55,Asia Pacific,In-Store,PayPal,completed,65+,True,4.7,False
+TXN-100446,2024-02-19,4K Monitor 27in,Monitors,2,599.99,0,1199.98,4.99,0.1144,137.28,1342.25,Latin America,Mobile App,Bank Transfer,refunded,25-34,True,3.6,False
+TXN-100447,2024-08-10,Fitbit Charge 6,Wearables,2,159.99,0,319.98,19.99,0.1186,37.95,377.92,Africa,Mobile App,Buy Now Pay Later,completed,45-54,False,4.1,False
+TXN-100448,2023-08-14,Sony WH-1000XM5,Headphones,3,349.99,0,1049.97,0,0.0932,97.86,1147.83,Latin America,In-Store,Credit Card,completed,55-64,False,2.7,False
+TXN-100449,2023-03-31,GoPro Hero 12,Cameras,1,399.99,0,399.99,19.99,0.0974,38.96,458.94,Middle East,Partner API,PayPal,completed,55-64,True,3.1,False
+TXN-100450,2024-04-01,Mechanical Keyboard,Accessories,1,123.49,0.05,123.49,4.99,0.0746,9.21,137.69,Middle East,Web,PayPal,completed,45-54,False,2.9,False
+TXN-100451,2023-05-28,Mechanical Keyboard,Accessories,3,123.49,0.05,370.47,19.99,0.0919,34.05,424.51,Europe,In-Store,Bank Transfer,failed,55-64,False,,False
+TXN-100452,2024-07-23,USB-C Hub 7-in-1,Accessories,1,47.49,0.05,47.49,19.99,0.079,3.75,71.23,Latin America,Marketplace,PayPal,completed,45-54,False,1.7,False
+TXN-100453,2023-01-03,Portable Charger 20k,Accessories,1,35.99,0.1,35.99,4.99,0.0519,1.87,42.85,Europe,In-Store,Crypto,pending,65+,False,,False
+TXN-100454,2023-05-03,Fitbit Charge 6,Wearables,2,143.99,0.1,287.98,9.99,0.0671,19.32,317.29,Asia Pacific,Partner API,Credit Card,completed,35-44,False,4.4,False
+TXN-100455,2023-01-18,Webcam 4K,Accessories,15,71.99,0.2,1079.85,4.99,0.1013,109.39,1194.23,Asia Pacific,Mobile App,Buy Now Pay Later,completed,35-44,False,2.3,False
+TXN-100456,2023-10-26,GoPro Hero 12,Cameras,1,359.99,0.1,359.99,29.99,0.0534,19.22,409.2,Middle East,Web,Buy Now Pay Later,completed,65+,False,3.8,False
+TXN-100457,2024-12-02,Nintendo Switch OLED,Gaming,4,279.99,0.2,1119.96,9.99,0.0711,79.63,1209.58,Africa,In-Store,Credit Card,completed,35-44,False,,False
+TXN-100458,2023-08-12,PS5 Controller,Gaming,3,71.24,0.05,213.72,19.99,0.0614,13.12,246.83,Europe,Marketplace,PayPal,completed,55-64,True,4.5,False
+TXN-100459,2024-03-28,Sony WH-1000XM5,Headphones,5,314.99,0.1,1574.95,4.99,0.0754,118.75,1698.69,Middle East,Marketplace,Crypto,completed,35-44,True,2.2,False
+TXN-100460,2024-03-11,Sony WH-1000XM5,Headphones,3,332.49,0.05,997.47,0,0.1187,118.4,1115.87,Africa,Web,Credit Card,completed,45-54,False,,False
+TXN-100461,2023-11-05,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,19.99,0.053,17.17,361.14,Africa,Web,Credit Card,completed,55-64,False,2.6,False
+TXN-100462,2023-12-23,iPhone 15 Pro,Smartphones,1,799.99,0.2,799.99,19.99,0.1164,93.12,913.1,Asia Pacific,Mobile App,Buy Now Pay Later,completed,55-64,False,1.9,False
+TXN-100463,2024-07-04,iPhone 15 Pro,Smartphones,2,849.99,0.15,1699.98,29.99,0.062,105.4,1835.37,North America,Web,PayPal,refunded,65+,False,3.7,False
+TXN-100464,2023-08-22,Dell XPS 15,Laptops,1,1662.49,0.05,1662.49,4.99,0.065,108.06,1775.54,Latin America,Web,Crypto,completed,18-24,False,3.2,False
+TXN-100465,2023-11-16,Samsung Galaxy S24,Smartphones,1,764.99,0.1,764.99,4.99,0.082,62.73,832.71,Africa,Partner API,PayPal,completed,35-44,False,1.9,False
+TXN-100466,2024-11-19,Webcam 4K,Accessories,10,85.49,0.05,854.9,0,0.0972,83.1,938.0,North America,Partner API,Bank Transfer,completed,65+,True,,False
+TXN-100467,2024-01-08,Portable Charger 20k,Accessories,15,33.99,0.15,509.85,19.99,0.0618,31.51,561.35,Europe,In-Store,PayPal,completed,45-54,True,3.3,False
+TXN-100468,2023-12-31,Portable Charger 20k,Accessories,2,33.99,0.15,67.98,19.99,0.116,7.89,95.86,Latin America,Marketplace,Bank Transfer,failed,55-64,False,,False
+TXN-100469,2023-04-12,Dell XPS 15,Laptops,1,1574.99,0.1,1574.99,9.99,0.0594,93.55,1678.53,Africa,Web,Credit Card,completed,18-24,False,3.9,False
+TXN-100470,2024-05-19,Ring Doorbell Pro,Smart Home,2,195.49,0.15,390.98,9.99,0.0864,33.78,434.75,Latin America,Mobile App,Crypto,completed,45-54,False,4.2,False
+TXN-100471,2024-01-28,iPhone 15 Pro,Smartphones,10,999.99,0,9999.9,4.99,0.114,1139.99,11144.88,Latin America,In-Store,Bank Transfer,completed,18-24,True,3.9,False
+TXN-100472,2023-04-23,AirPods Pro 2,Headphones,2,249.0,0,498.0,9.99,0.0841,41.88,549.87,Middle East,Partner API,Gift Card,completed,55-64,False,4.3,False
+TXN-100473,2023-10-19,USB-C Hub 7-in-1,Accessories,1,44.99,0.1,44.99,4.99,0.0974,4.38,54.36,Asia Pacific,Web,Credit Card,completed,25-34,False,4.1,True
+TXN-100474,2023-02-27,Nintendo Switch OLED,Gaming,1,332.49,0.05,332.49,29.99,0.0788,26.2,388.68,Africa,Mobile App,PayPal,completed,35-44,True,1.9,False
+TXN-100475,2024-03-08,Nintendo Switch OLED,Gaming,1,314.99,0.1,314.99,0,0.096,30.24,345.23,Middle East,Marketplace,Bank Transfer,completed,65+,False,4.8,False
+TXN-100476,2023-07-30,USB-C Hub 7-in-1,Accessories,1,49.99,0,49.99,4.99,0.0984,4.92,59.9,Asia Pacific,Partner API,Buy Now Pay Later,completed,65+,False,3.0,False
+TXN-100477,2024-07-02,iPad Pro 12.9,Tablets,2,879.2,0.2,1758.4,9.99,0.1088,191.31,1959.7,Europe,In-Store,Crypto,completed,55-64,False,3.8,False
+TXN-100478,2024-05-01,Portable Charger 20k,Accessories,1,37.99,0.05,37.99,0,0.1061,4.03,42.02,Latin America,Mobile App,Crypto,completed,65+,False,3.0,False
+TXN-100479,2024-07-14,Nintendo Switch OLED,Gaming,1,332.49,0.05,332.49,9.99,0.0817,27.16,369.64,Europe,Web,Gift Card,completed,25-34,False,4.7,False
+TXN-100480,2024-03-20,4K Monitor 27in,Monitors,1,539.99,0.1,539.99,19.99,0.1097,59.24,619.22,Middle East,Web,Buy Now Pay Later,completed,45-54,False,4.1,False
+TXN-100481,2024-02-27,Mechanical Keyboard,Accessories,2,103.99,0.2,207.98,19.99,0.0944,19.63,247.6,Asia Pacific,In-Store,Gift Card,completed,65+,False,2.2,False
+TXN-100482,2024-03-08,Kindle Paperwhite,E-Readers,3,132.99,0.05,398.97,4.99,0.1194,47.64,451.6,Africa,Web,PayPal,completed,25-34,True,4.2,False
+TXN-100483,2023-02-26,AirPods Pro 2,Headphones,2,249.0,0,498.0,9.99,0.1048,52.19,560.18,North America,In-Store,Buy Now Pay Later,completed,18-24,False,3.9,False
+TXN-100484,2024-05-27,USB-C Hub 7-in-1,Accessories,10,42.49,0.15,424.9,0,0.0578,24.56,449.46,North America,Marketplace,Gift Card,completed,55-64,False,2.1,False
+TXN-100485,2023-08-30,Nintendo Switch OLED,Gaming,1,314.99,0.1,314.99,4.99,0.1024,32.25,352.23,Latin America,Mobile App,PayPal,completed,25-34,False,2.8,False
+TXN-100486,2024-05-01,Webcam 4K,Accessories,2,76.49,0.15,152.98,0,0.0882,13.49,166.47,Africa,Mobile App,Crypto,completed,25-34,False,3.2,False
+TXN-100487,2024-11-18,Ring Doorbell Pro,Smart Home,1,195.49,0.15,195.49,9.99,0.0538,10.52,216.0,Europe,In-Store,Buy Now Pay Later,completed,65+,False,4.0,False
+TXN-100488,2023-09-19,Kindle Paperwhite,E-Readers,4,132.99,0.05,531.96,19.99,0.0775,41.23,593.18,Asia Pacific,Web,PayPal,completed,25-34,False,4.4,False
+TXN-100489,2024-05-18,Mechanical Keyboard,Accessories,3,129.99,0,389.97,0,0.1046,40.79,430.76,Latin America,Partner API,Crypto,completed,18-24,False,3.5,False
+TXN-100490,2023-02-23,Ring Doorbell Pro,Smart Home,3,206.99,0.1,620.97,4.99,0.0987,61.29,687.25,Africa,Mobile App,Gift Card,completed,65+,False,,False
+TXN-100491,2024-10-26,Fitbit Charge 6,Wearables,1,159.99,0,159.99,0,0.0861,13.78,173.77,Europe,Marketplace,Gift Card,completed,35-44,False,4.1,False
+TXN-100492,2023-07-06,Portable Charger 20k,Accessories,4,33.99,0.15,135.96,0,0.079,10.74,146.7,Latin America,Partner API,Buy Now Pay Later,completed,18-24,False,4.7,False
+TXN-100493,2024-01-12,AirPods Pro 2,Headphones,1,224.1,0.1,224.1,9.99,0.0604,13.54,247.63,Europe,Marketplace,Credit Card,completed,55-64,False,4.5,False
+TXN-100494,2023-09-30,Webcam 4K,Accessories,1,76.49,0.15,76.49,0,0.1103,8.44,84.93,Asia Pacific,Partner API,Bank Transfer,completed,25-34,False,2.9,False
+TXN-100495,2023-08-30,Mechanical Keyboard,Accessories,1,110.49,0.15,110.49,0,0.1183,13.07,123.56,Middle East,Partner API,PayPal,completed,65+,False,,False
+TXN-100496,2024-03-09,Nintendo Switch OLED,Gaming,15,332.49,0.05,4987.35,0,0.0768,383.03,5370.38,Africa,Marketplace,Crypto,completed,55-64,True,,False
+TXN-100497,2024-09-04,Webcam 4K,Accessories,5,44.99,0.5,224.95,19.99,0.1177,26.48,271.42,Africa,Web,Credit Card,completed,55-64,False,3.2,False
+TXN-100498,2023-12-14,Smart Watch Ultra,Wearables,1,799.0,0,799.0,0,0.0845,67.52,866.52,Latin America,Mobile App,Credit Card,completed,55-64,False,,False
+TXN-100499,2024-01-05,Samsung Galaxy S24,Smartphones,15,764.99,0.1,11474.85,29.99,0.0697,799.8,12304.64,Latin America,In-Store,Crypto,completed,35-44,False,2.5,False
+TXN-100500,2024-03-26,Webcam 4K,Accessories,3,89.99,0,269.97,19.99,0.096,25.92,315.88,North America,Mobile App,PayPal,completed,25-34,True,2.4,False
+TXN-100501,2024-12-27,Dell XPS 15,Laptops,20,1224.99,0.3,24499.8,0,0.075,1837.48,26337.28,Middle East,Partner API,Bank Transfer,completed,65+,False,,False
+TXN-100502,2024-11-10,Fitbit Charge 6,Wearables,1,159.99,0,159.99,4.99,0.0691,11.06,176.04,Middle East,Mobile App,Buy Now Pay Later,failed,18-24,False,2.0,False
+TXN-100503,2024-02-08,Dell XPS 15,Laptops,5,1749.99,0,8749.95,9.99,0.0976,854.0,9613.94,Asia Pacific,Marketplace,Credit Card,completed,25-34,True,,False
+TXN-100504,2023-02-14,Webcam 4K,Accessories,2,62.99,0.3,125.98,9.99,0.0504,6.35,142.32,Africa,Marketplace,Bank Transfer,completed,65+,False,1.8,False
+TXN-100505,2023-04-05,Nintendo Switch OLED,Gaming,3,297.49,0.15,892.47,4.99,0.0922,82.29,979.75,Latin America,In-Store,PayPal,completed,45-54,True,,False
+TXN-100506,2023-05-04,USB-C Hub 7-in-1,Accessories,3,49.99,0,149.97,9.99,0.0958,14.37,174.33,Asia Pacific,Partner API,Bank Transfer,completed,35-44,False,2.1,False
+TXN-100507,2024-03-09,iPad Pro 12.9,Tablets,2,879.2,0.2,1758.4,4.99,0.0894,157.2,1920.59,North America,Partner API,Crypto,completed,45-54,False,,False
+TXN-100508,2024-06-23,4K Monitor 27in,Monitors,3,539.99,0.1,1619.97,9.99,0.1151,186.46,1816.42,Africa,Marketplace,Credit Card,completed,45-54,True,3.5,False
+TXN-100509,2024-08-05,Sony WH-1000XM5,Headphones,3,332.49,0.05,997.47,0,0.0799,79.7,1077.17,North America,Marketplace,Credit Card,refunded,55-64,True,3.3,False
+TXN-100510,2023-01-17,Portable Charger 20k,Accessories,4,37.99,0.05,151.96,9.99,0.1038,15.77,177.72,North America,Partner API,PayPal,completed,45-54,True,,False
+TXN-100511,2023-09-29,Fitbit Charge 6,Wearables,1,135.99,0.15,135.99,9.99,0.0815,11.08,157.06,Asia Pacific,Mobile App,PayPal,completed,65+,False,2.2,False
+TXN-100512,2024-11-04,iPhone 15 Pro,Smartphones,81,999.99,0,80999.19,4.99,0.0984,7970.32,88974.5,Africa,Marketplace,Gift Card,completed,55-64,False,4.7,False
+TXN-100513,2024-12-13,Fitbit Charge 6,Wearables,1,159.99,0,159.99,0,0.1071,17.13,177.12,Europe,Web,PayPal,completed,25-34,False,3.8,False
+TXN-100514,2023-04-30,iPad Pro 12.9,Tablets,1,934.15,0.15,934.15,0,0.0795,74.26,1008.41,Europe,Mobile App,Gift Card,completed,45-54,False,,False
+TXN-100515,2023-01-09,Kindle Paperwhite,E-Readers,1,125.99,0.1,125.99,19.99,0.0536,6.75,152.73,North America,Partner API,Bank Transfer,completed,65+,False,,False
+TXN-100516,2024-05-14,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,9.99,0.1072,34.73,368.7,Europe,Web,Buy Now Pay Later,completed,55-64,False,2.9,False
+TXN-100517,2024-03-22,Webcam 4K,Accessories,1,80.99,0.1,80.99,9.99,0.0814,6.59,97.57,North America,Mobile App,Crypto,completed,45-54,False,3.5,False
+TXN-100518,2023-10-28,Nintendo Switch OLED,Gaming,5,279.99,0.2,1399.95,9.99,0.0828,115.92,1525.86,Africa,Partner API,Bank Transfer,completed,65+,False,4.2,False
+TXN-100519,2023-06-27,Ring Doorbell Pro,Smart Home,1,195.49,0.15,195.49,0,0.0838,16.38,211.87,Europe,Mobile App,Buy Now Pay Later,completed,45-54,False,2.6,True
+TXN-100520,2024-05-30,iPhone 15 Pro,Smartphones,1,999.99,0,999.99,9.99,0.0622,62.2,1072.18,North America,Web,Crypto,completed,55-64,False,,False
+TXN-100521,2024-07-24,GoPro Hero 12,Cameras,20,339.99,0.15,6799.8,9.99,0.1039,706.5,7516.29,Asia Pacific,Mobile App,Gift Card,completed,55-64,True,4.5,False
+TXN-100522,2024-09-16,4K Monitor 27in,Monitors,10,509.99,0.15,5099.9,29.99,0.1047,533.96,5663.85,North America,Marketplace,Credit Card,completed,25-34,True,4.5,False
+TXN-100523,2023-06-07,Fitbit Charge 6,Wearables,3,135.99,0.15,407.97,4.99,0.1109,45.24,458.2,Africa,In-Store,Crypto,completed,18-24,False,3.3,False
+TXN-100524,2023-09-30,Kindle Paperwhite,E-Readers,4,125.99,0.1,503.96,4.99,0.062,31.25,540.2,Asia Pacific,Partner API,Crypto,completed,25-34,False,3.6,False
+TXN-100525,2024-06-12,Sony WH-1000XM5,Headphones,4,332.49,0.05,1329.96,4.99,0.0821,109.19,1444.14,Africa,In-Store,Credit Card,completed,18-24,True,,False
+TXN-100526,2023-06-04,AirPods Pro 2,Headphones,2,236.55,0.05,473.1,0,0.1146,54.22,527.32,Middle East,Web,Gift Card,failed,65+,False,4.4,False
+TXN-100527,2024-06-24,Fitbit Charge 6,Wearables,3,151.99,0.05,455.97,4.99,0.1079,49.2,510.16,Middle East,Mobile App,Gift Card,completed,65+,False,3.8,False
+TXN-100528,2023-07-22,4K Monitor 27in,Monitors,3,479.99,0.2,1439.97,9.99,0.0783,112.75,1562.71,Asia Pacific,Web,Credit Card,completed,45-54,False,3.6,False
+TXN-100529,2023-01-29,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,9.99,0.0612,19.83,353.8,Middle East,Marketplace,Crypto,completed,35-44,False,2.2,True
+TXN-100530,2023-05-08,PS5 Controller,Gaming,1,67.49,0.1,67.49,0,0.103,6.95,74.44,Latin America,In-Store,Buy Now Pay Later,completed,45-54,False,4.2,False
+TXN-100531,2023-08-28,Portable Charger 20k,Accessories,3,27.99,0.3,83.97,9.99,0.1091,9.16,103.12,Asia Pacific,In-Store,Crypto,completed,65+,False,3.6,False
+TXN-100532,2023-05-31,Nintendo Switch OLED,Gaming,2,349.99,0,699.98,9.99,0.0818,57.26,767.23,Africa,Partner API,Bank Transfer,completed,18-24,False,3.5,False
+TXN-100533,2023-09-28,PS5 Controller,Gaming,3,71.24,0.05,213.72,9.99,0.1045,22.33,246.04,Middle East,Partner API,Gift Card,completed,45-54,False,3.3,False
+TXN-100534,2024-06-25,NVMe SSD 2TB,Storage,1,152.99,0.15,152.99,0,0.0993,15.19,168.18,North America,Mobile App,Bank Transfer,completed,65+,False,3.2,False
+TXN-100535,2024-06-19,Ring Doorbell Pro,Smart Home,4,229.99,0,919.96,4.99,0.0703,64.67,989.62,Europe,Web,Crypto,completed,35-44,False,1.6,False
+TXN-100536,2023-07-07,Portable Charger 20k,Accessories,2,27.99,0.3,55.98,4.99,0.0698,3.91,64.88,Africa,Partner API,Credit Card,completed,35-44,True,3.3,False
+TXN-100537,2024-09-12,Portable Charger 20k,Accessories,2,37.99,0.05,75.98,4.99,0.1084,8.24,89.21,Europe,Mobile App,Buy Now Pay Later,completed,45-54,False,,False
+TXN-100538,2024-02-09,MacBook Air M3,Laptops,3,1104.15,0.15,3312.45,4.99,0.0663,219.62,3537.06,Asia Pacific,Marketplace,Credit Card,pending,45-54,False,4.3,False
+TXN-100539,2024-10-21,Portable Charger 20k,Accessories,2,33.99,0.15,67.98,4.99,0.0952,6.47,79.44,Middle East,Web,PayPal,pending,55-64,True,3.6,False
+TXN-100540,2023-01-20,NVMe SSD 2TB,Storage,5,179.99,0,899.95,19.99,0.0626,56.34,976.28,Asia Pacific,Mobile App,PayPal,completed,55-64,False,,False
+TXN-100541,2024-03-23,Nintendo Switch OLED,Gaming,2,349.99,0,699.98,19.99,0.0516,36.12,756.09,Europe,Partner API,Credit Card,completed,35-44,False,2.2,False
+TXN-100542,2024-02-22,AirPods Pro 2,Headphones,1,249.0,0,249.0,9.99,0.0608,15.14,274.13,Africa,Mobile App,Credit Card,completed,35-44,False,,True
+TXN-100543,2023-05-04,USB-C Hub 7-in-1,Accessories,1,49.99,0,49.99,19.99,0.0681,3.4,73.38,North America,Mobile App,PayPal,completed,55-64,False,4.1,False
+TXN-100544,2023-01-30,Dell XPS 15,Laptops,1,1662.49,0.05,1662.49,9.99,0.0546,90.77,1763.25,Latin America,Mobile App,Credit Card,completed,55-64,True,3.7,False
+TXN-100545,2023-05-26,Fitbit Charge 6,Wearables,2,151.99,0.05,303.98,19.99,0.085,25.84,349.81,Asia Pacific,Marketplace,PayPal,completed,55-64,False,3.7,True
+TXN-100546,2023-03-03,4K Monitor 27in,Monitors,10,539.99,0.1,5399.9,9.99,0.0617,333.17,5743.06,Latin America,In-Store,Buy Now Pay Later,completed,65+,False,4.3,False
+TXN-100547,2023-04-02,NVMe SSD 2TB,Storage,1,179.99,0,179.99,4.99,0.0549,9.88,194.86,Latin America,Web,PayPal,completed,35-44,False,3.5,False
+TXN-100548,2024-11-09,Nintendo Switch OLED,Gaming,2,175.0,0.5,350.0,9.99,0.0691,24.18,384.17,Asia Pacific,In-Store,PayPal,completed,55-64,False,,False
+TXN-100549,2024-07-23,iPhone 15 Pro,Smartphones,2,999.99,0,1999.98,0,0.0621,124.2,2124.18,Africa,Partner API,Bank Transfer,completed,65+,True,4.4,False
+TXN-100550,2024-01-02,4K Monitor 27in,Monitors,3,569.99,0.05,1709.97,19.99,0.1079,184.51,1914.47,Latin America,Mobile App,Gift Card,failed,18-24,False,2.6,True
+TXN-100551,2024-09-20,iPhone 15 Pro,Smartphones,3,849.99,0.15,2549.97,9.99,0.0634,161.67,2721.63,Africa,In-Store,Gift Card,completed,45-54,False,,False
+TXN-100552,2023-10-12,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,19.99,0.0777,17.87,267.85,Middle East,Marketplace,Bank Transfer,completed,25-34,False,,False
+TXN-100553,2023-10-08,MacBook Air M3,Laptops,1,909.3,0.3,909.3,19.99,0.1117,101.57,1030.86,Europe,Web,Gift Card,completed,55-64,False,4.4,True
+TXN-100554,2024-03-18,Mechanical Keyboard,Accessories,2,90.99,0.3,181.98,0,0.1157,21.06,203.04,Latin America,In-Store,Credit Card,completed,45-54,False,4.1,False
+TXN-100555,2024-02-06,Kindle Paperwhite,E-Readers,1,97.99,0.3,97.99,4.99,0.0721,7.07,110.05,Europe,In-Store,Credit Card,completed,18-24,False,3.3,False
+TXN-100556,2023-01-29,Kindle Paperwhite,E-Readers,1,132.99,0.05,132.99,0,0.0938,12.47,145.46,Latin America,Partner API,Credit Card,completed,65+,False,2.8,False
+TXN-100557,2023-03-16,Nintendo Switch OLED,Gaming,4,279.99,0.2,1119.96,4.99,0.0666,74.59,1199.54,Middle East,Marketplace,Bank Transfer,completed,65+,False,2.0,True
+TXN-100558,2023-03-05,Samsung Galaxy S24,Smartphones,1,679.99,0.2,679.99,9.99,0.1048,71.26,761.24,Latin America,Web,Crypto,completed,45-54,True,,True
+TXN-100559,2023-08-27,Samsung Galaxy S24,Smartphones,1,807.49,0.05,807.49,0,0.1026,82.85,890.34,Middle East,Marketplace,Credit Card,completed,45-54,False,3.8,False
+TXN-100560,2024-09-01,iPhone 15 Pro,Smartphones,2,949.99,0.05,1899.98,0,0.0572,108.68,2008.66,Africa,Web,Buy Now Pay Later,completed,25-34,False,2.8,False
+TXN-100561,2023-11-16,Ring Doorbell Pro,Smart Home,2,229.99,0,459.98,9.99,0.0542,24.93,494.9,Middle East,Partner API,Buy Now Pay Later,pending,35-44,False,3.6,False
+TXN-100562,2024-08-23,Webcam 4K,Accessories,1,85.49,0.05,85.49,4.99,0.0506,4.33,94.81,Africa,Mobile App,Credit Card,completed,55-64,True,2.6,False
+TXN-100563,2024-04-23,iPad Pro 12.9,Tablets,3,1044.05,0.05,3132.15,9.99,0.0986,308.83,3450.97,Middle East,In-Store,Buy Now Pay Later,completed,35-44,False,2.4,False
+TXN-100564,2024-04-22,Samsung Galaxy S24,Smartphones,2,594.99,0.3,1189.98,9.99,0.0985,117.21,1317.18,Middle East,Mobile App,PayPal,completed,35-44,False,2.5,False
+TXN-100565,2024-03-26,PS5 Controller,Gaming,1,71.24,0.05,71.24,9.99,0.06,4.27,85.5,Europe,Marketplace,Crypto,completed,18-24,False,2.5,False
+TXN-100566,2023-09-26,AirPods Pro 2,Headphones,1,224.1,0.1,224.1,0,0.0515,11.54,235.64,North America,Web,Gift Card,completed,65+,True,2.6,False
+TXN-100567,2024-09-30,PS5 Controller,Gaming,4,63.74,0.15,254.96,19.99,0.1184,30.19,305.14,Latin America,Web,Credit Card,completed,25-34,False,3.2,False
+TXN-100568,2024-08-24,Ring Doorbell Pro,Smart Home,2,206.99,0.1,413.98,19.99,0.1034,42.81,476.78,Europe,Marketplace,Crypto,completed,35-44,False,,False
+TXN-100569,2023-03-25,Sony WH-1000XM5,Headphones,4,244.99,0.3,979.96,19.99,0.0646,63.31,1063.26,Latin America,Marketplace,Credit Card,completed,45-54,False,3.4,False
+TXN-100570,2024-08-18,PS5 Controller,Gaming,2,67.49,0.1,134.98,29.99,0.0832,11.23,176.2,Latin America,Marketplace,Gift Card,completed,25-34,False,2.7,False
+TXN-100571,2024-07-17,Mechanical Keyboard,Accessories,5,116.99,0.1,584.95,19.99,0.0762,44.57,649.51,North America,Mobile App,Credit Card,completed,55-64,False,1.7,False
+TXN-100572,2023-11-21,Nintendo Switch OLED,Gaming,2,314.99,0.1,629.98,4.99,0.1063,66.97,701.94,Asia Pacific,Partner API,Credit Card,completed,25-34,False,3.1,False
+TXN-100573,2023-04-11,NVMe SSD 2TB,Storage,2,161.99,0.1,323.98,9.99,0.1149,37.23,371.2,North America,Web,Crypto,completed,25-34,False,3.1,False
+TXN-100574,2024-07-10,GoPro Hero 12,Cameras,1,359.99,0.1,359.99,0,0.1098,39.53,399.52,Asia Pacific,Web,Crypto,completed,35-44,False,4.2,False
+TXN-100575,2024-02-12,iPhone 15 Pro,Smartphones,2,899.99,0.1,1799.98,9.99,0.0604,108.72,1918.69,Europe,Mobile App,Gift Card,completed,45-54,False,4.2,False
+TXN-100576,2024-12-15,4K Monitor 27in,Monitors,1,599.99,0,599.99,19.99,0.08,48.0,667.98,Latin America,Mobile App,Bank Transfer,completed,55-64,True,3.7,False
+TXN-100577,2024-03-11,iPhone 15 Pro,Smartphones,2,849.99,0.15,1699.98,4.99,0.0658,111.86,1816.83,Africa,Partner API,Gift Card,completed,35-44,True,1.6,False
+TXN-100578,2024-02-05,Nintendo Switch OLED,Gaming,2,297.49,0.15,594.98,19.99,0.0902,53.67,668.64,Latin America,Mobile App,Bank Transfer,completed,45-54,False,3.1,False
+TXN-100579,2024-12-06,Fitbit Charge 6,Wearables,1,159.99,0,159.99,9.99,0.0522,8.35,178.33,Middle East,Partner API,Credit Card,completed,18-24,False,2.7,False
+TXN-100580,2024-02-25,MacBook Air M3,Laptops,2,1234.05,0.05,2468.1,0,0.0729,179.92,2648.02,Latin America,Mobile App,Credit Card,completed,45-54,False,3.2,False
+TXN-100581,2024-05-01,iPad Pro 12.9,Tablets,1,1099.0,0,1099.0,4.99,0.0997,109.57,1213.56,Europe,Marketplace,Buy Now Pay Later,refunded,55-64,False,4.0,False
+TXN-100582,2023-09-10,iPhone 15 Pro,Smartphones,20,949.99,0.05,18999.8,19.99,0.0923,1753.68,20773.47,Middle East,In-Store,Buy Now Pay Later,completed,45-54,False,4.1,False
+TXN-100583,2023-06-29,4K Monitor 27in,Monitors,1,479.99,0.2,479.99,9.99,0.0774,37.15,527.13,Latin America,Mobile App,PayPal,refunded,65+,False,4.5,False
+TXN-100584,2023-06-11,Portable Charger 20k,Accessories,1,33.99,0.15,33.99,0,0.112,3.81,37.8,Asia Pacific,Marketplace,Crypto,completed,18-24,False,3.3,False
+TXN-100585,2023-11-30,Dell XPS 15,Laptops,20,1749.99,0,34999.8,0,0.1037,3629.48,38629.28,Latin America,Partner API,PayPal,completed,55-64,True,2.0,False
+TXN-100586,2023-01-11,4K Monitor 27in,Monitors,1,509.99,0.15,509.99,19.99,0.0778,39.68,569.66,Asia Pacific,Web,Gift Card,refunded,35-44,False,1.9,False
+TXN-100587,2023-06-15,Kindle Paperwhite,E-Readers,3,132.99,0.05,398.97,4.99,0.0695,27.73,431.69,Europe,Web,Buy Now Pay Later,completed,35-44,True,3.2,False
+TXN-100588,2023-02-05,iPhone 15 Pro,Smartphones,3,999.99,0,2999.97,4.99,0.0652,195.6,3200.56,Africa,Marketplace,PayPal,completed,18-24,True,3.0,True
+TXN-100589,2023-09-02,iPhone 15 Pro,Smartphones,1,949.99,0.05,949.99,0,0.0675,64.12,1014.11,Europe,Web,Credit Card,completed,18-24,False,4.0,True
+TXN-100590,2024-03-01,Dell XPS 15,Laptops,3,1399.99,0.2,4199.97,0,0.0617,259.14,4459.11,Middle East,Web,Crypto,completed,65+,False,4.5,False
+TXN-100591,2024-02-16,Mechanical Keyboard,Accessories,1,129.99,0,129.99,4.99,0.0622,8.09,143.07,Africa,In-Store,Credit Card,completed,45-54,False,,False
+TXN-100592,2024-09-05,Ring Doorbell Pro,Smart Home,1,229.99,0,229.99,0,0.0711,16.35,246.34,Latin America,Web,Gift Card,completed,55-64,False,2.1,False
+TXN-100593,2024-10-12,USB-C Hub 7-in-1,Accessories,3,25.0,0.5,75.0,9.99,0.0732,5.49,90.48,Africa,In-Store,Gift Card,completed,35-44,True,3.7,False
+TXN-100594,2023-05-08,Kindle Paperwhite,E-Readers,2,118.99,0.15,237.98,0,0.0515,12.26,250.24,Asia Pacific,Mobile App,Gift Card,completed,25-34,True,,False
+TXN-100595,2024-09-04,Fitbit Charge 6,Wearables,1,151.99,0.05,151.99,9.99,0.0667,10.14,172.12,Latin America,In-Store,PayPal,completed,65+,True,4.7,False
+TXN-100596,2023-07-30,Fitbit Charge 6,Wearables,3,159.99,0,479.97,9.99,0.074,35.52,525.48,Middle East,Web,Gift Card,failed,65+,False,3.2,False
+TXN-100597,2023-02-23,4K Monitor 27in,Monitors,2,599.99,0,1199.98,4.99,0.1168,140.16,1345.13,Africa,Mobile App,PayPal,completed,25-34,False,2.0,False
+TXN-100598,2023-11-07,Fitbit Charge 6,Wearables,1,159.99,0,159.99,4.99,0.0924,14.78,179.76,Asia Pacific,Marketplace,Bank Transfer,pending,25-34,False,3.5,False
+TXN-100599,2024-03-19,PS5 Controller,Gaming,1,74.99,0,74.99,4.99,0.0854,6.4,86.38,Europe,Partner API,Credit Card,completed,45-54,True,4.5,False
