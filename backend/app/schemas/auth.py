@@ -1,6 +1,5 @@
 import re
 from pydantic import BaseModel, EmailStr, field_validator
-from typing import Optional
 from datetime import datetime
 
 
@@ -8,7 +7,6 @@ class RegisterRequest(BaseModel):
     email: EmailStr
     password: str
     full_name: str
-    role: Optional[str] = "user"
 
     @field_validator("password")
     @classmethod
@@ -21,13 +19,6 @@ class RegisterRequest(BaseModel):
             raise ValueError("Password must contain at least one number")
         if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", v):
             raise ValueError("Password must contain at least one special character")
-        return v
-
-    @field_validator("role")
-    @classmethod
-    def role_valid(cls, v: str) -> str:
-        if v not in ("admin", "user"):
-            raise ValueError("Role must be 'admin' or 'user'")
         return v
 
 

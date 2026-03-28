@@ -1,3 +1,5 @@
+import os
+
 from sqlalchemy.orm import Session
 from fastapi import HTTPException, status
 from app.models.user import User
@@ -11,20 +13,16 @@ def register_user(data: RegisterRequest, db: Session) -> User:
     if existing:
         raise HTTPException(status_code=400, detail="Email already registered")
 
-    requested_role = data.role or "user"
-    if requested_role == "admin":
-        user_count = db.query(User).count()
-        if user_count > 0:
-            raise HTTPException(
-                status_code=403,
-                detail="Admin registration is not allowed from the public signup endpoint",
-            )
+    # Role is always "user" — admin is granted only if the email matches
+    # the ADMIN_EMAIL environment variable set by the server operator.
+    admin_email = os.getenv("ADMIN_EMAIL", "").strip().lower()
+    role = "admin" if (admin_email and data.email.lower() == admin_email) else "user"
 
     user = User(
         email=data.email,
         hashed_password=hash_password(data.password),
         full_name=data.full_name,
-        role=requested_role,
+        role=role,
     )
     db.add(user)
     db.commit()

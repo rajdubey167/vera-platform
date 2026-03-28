@@ -60,7 +60,7 @@ export default function SignupPage() {
     if (form.password !== form.confirm) { toast.error('Passwords do not match'); return }
     setLoading(true)
     try {
-      await signup(form.email, form.password, form.full_name, 'user')
+      await signup(form.email, form.password, form.full_name)
       toast.success('Account created! Please sign in.')
       navigate('/login')
     } catch (err: unknown) {
