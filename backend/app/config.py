@@ -9,6 +9,8 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 1440
     environment: str = "development"
     frontend_url: str = "http://localhost:3000"
+    admin_email: str = ""
+    admin_password: str = ""
 
     class Config:
         env_file = ".env"

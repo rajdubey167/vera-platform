@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useWebSocket } from '../hooks/useWebSocket'
 import { datasetService } from '../services/datasetService'
-import type { Dataset } from '../types'
+import { adminService } from '../services/adminService'
+import type { Dataset, User } from '../types'
 
 function formatBytes(bytes: number) {
   if (bytes < 1024) return `${bytes} B`
@@ -25,12 +26,17 @@ function getGreeting() {
 export default function DashboardPage() {
   const { user, isAdmin } = useAuth()
   const [datasets, setDatasets] = useState<Dataset[]>([])
+  const [users, setUsers] = useState<User[]>([])
   const [loading, setLoading] = useState(true)
 
   const load = async () => {
     try {
       const result = await datasetService.list({ limit: 100 })
       setDatasets(result.items)
+      if (isAdmin) {
+        const allUsers = await adminService.getUsers()
+        setUsers(allUsers)
+      }
     } finally {
       setLoading(false)
     }
@@ -94,6 +100,17 @@ export default function DashboardPage() {
         </svg>
       ),
     },
+    ...(isAdmin ? [{
+      label: 'Total Users',
+      value: users.length,
+      sub: `${users.filter(u => u.role === 'admin').length} admin · ${users.filter(u => u.role === 'user').length} users`,
+      accent: '#ec4899', accentBg: 'rgba(236,72,153,0.12)', glow: 'rgba(236,72,153,0.18)',
+      icon: (
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      ),
+    }] : []),
   ]
 
   const quickActions = [
@@ -314,7 +331,7 @@ export default function DashboardPage() {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ borderBottom: '1px solid var(--border-color, rgba(0,0,0,0.06))' }}>
-                    {['File', 'Type', 'Records', 'Uploaded', 'Status', 'Actions'].map(h => (
+                    {['File', 'Type', 'Records', 'Uploaded', ...(isAdmin ? ['Uploaded By'] : []), 'Status', 'Actions'].map(h => (
                       <th key={h} style={{ padding: '10px 20px', textAlign: 'left', fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#64748b' }}>
                         {h.toUpperCase()}
                       </th>
@@ -371,6 +388,22 @@ export default function DashboardPage() {
                         {formatDate(d.upload_time)}
                       </td>
 
+                      {isAdmin && (
+                        <td style={{ padding: '13px 20px' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                            <div style={{ width: 26, height: 26, borderRadius: '50%', background: 'linear-gradient(135deg, #7c3aed, #ec4899)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                              <span style={{ fontSize: 10, fontWeight: 700, color: 'white' }}>
+                                {(d.owner_name || d.owner_email || '?')[0].toUpperCase()}
+                              </span>
+                            </div>
+                            <div>
+                              <p style={{ fontSize: 12, fontWeight: 600, marginBottom: 1 }} className="text-gray-800 dark:text-gray-200">{d.owner_name || '—'}</p>
+                              <p style={{ fontSize: 11, color: '#94a3b8' }}>{d.owner_email || `User #${d.user_id}`}</p>
+                            </div>
+                          </div>
+                        </td>
+                      )}
+
                       <td style={{ padding: '13px 20px' }}>
                         <span style={{
                           display: 'inline-flex', alignItems: 'center', gap: 5,
@@ -410,6 +443,72 @@ export default function DashboardPage() {
             </div>
           )}
         </div>
+        {/* ── Admin: All Users Panel ─────────────────────────── */}
+        {isAdmin && users.length > 0 && (
+          <div style={{ borderRadius: 16, overflow: 'hidden', border: '1px solid var(--border-color, rgba(0,0,0,0.08))', background: 'var(--bg-card)', marginTop: 24 }}>
+            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--border-color, rgba(0,0,0,0.06))' }}>
+              <h2 style={{ fontSize: 15, fontWeight: 700, marginBottom: 2, letterSpacing: '-0.01em' }} className="text-gray-900 dark:text-white">
+                Registered Users
+              </h2>
+              <p style={{ fontSize: 12, color: '#94a3b8' }}>{users.length} total accounts</p>
+            </div>
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                <thead>
+                  <tr style={{ borderBottom: '1px solid var(--border-color, rgba(0,0,0,0.06))' }}>
+                    {['User', 'Email', 'Role', 'Status', 'Joined'].map(h => (
+                      <th key={h} style={{ padding: '10px 20px', textAlign: 'left', fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#64748b' }}>
+                        {h.toUpperCase()}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {users.map((u, i) => (
+                    <tr
+                      key={u.id}
+                      style={{ borderBottom: i < users.length - 1 ? '1px solid var(--border-color, rgba(0,0,0,0.04))' : 'none', transition: 'background 0.1s' }}
+                      className="hover:bg-black/[0.015] dark:hover:bg-white/[0.025]"
+                    >
+                      <td style={{ padding: '13px 20px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                          <div style={{ width: 32, height: 32, borderRadius: '50%', background: u.role === 'admin' ? 'linear-gradient(135deg, #7c3aed, #ec4899)' : 'linear-gradient(135deg, #06b6d4, #10b981)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                            <span style={{ fontSize: 12, fontWeight: 700, color: 'white' }}>{u.full_name[0].toUpperCase()}</span>
+                          </div>
+                          <span style={{ fontSize: 13, fontWeight: 600 }} className="text-gray-900 dark:text-white">{u.full_name}</span>
+                        </div>
+                      </td>
+                      <td style={{ padding: '13px 20px', fontSize: 13, color: '#64748b' }}>{u.email}</td>
+                      <td style={{ padding: '13px 20px' }}>
+                        <span style={{
+                          padding: '3px 9px', borderRadius: 6, fontSize: 10, fontWeight: 800, letterSpacing: '0.07em',
+                          background: u.role === 'admin' ? 'rgba(124,58,237,0.1)' : 'rgba(6,182,212,0.1)',
+                          color: u.role === 'admin' ? '#7c3aed' : '#06b6d4',
+                          border: `1px solid ${u.role === 'admin' ? 'rgba(124,58,237,0.25)' : 'rgba(6,182,212,0.25)'}`,
+                        }}>
+                          {u.role.toUpperCase()}
+                        </span>
+                      </td>
+                      <td style={{ padding: '13px 20px' }}>
+                        <span style={{
+                          display: 'inline-flex', alignItems: 'center', gap: 5,
+                          padding: '3px 10px', borderRadius: 20, fontSize: 11, fontWeight: 600,
+                          background: u.is_active ? 'rgba(16,185,129,0.1)' : 'rgba(239,68,68,0.1)',
+                          color: u.is_active ? '#10b981' : '#ef4444',
+                          border: `1px solid ${u.is_active ? 'rgba(16,185,129,0.2)' : 'rgba(239,68,68,0.2)'}`,
+                        }}>
+                          <span style={{ width: 5, height: 5, borderRadius: '50%', background: u.is_active ? '#10b981' : '#ef4444' }} />
+                          {u.is_active ? 'Active' : 'Inactive'}
+                        </span>
+                      </td>
+                      <td style={{ padding: '13px 20px', fontSize: 13, color: '#94a3b8' }}>{formatDate(u.created_at)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
       </div>
 
       <style>{`

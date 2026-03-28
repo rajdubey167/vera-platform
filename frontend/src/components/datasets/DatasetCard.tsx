@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import type { Dataset } from '../../types'
+import { useAuth } from '../../context/AuthContext'
 
 interface Props {
   dataset: Dataset
@@ -13,6 +14,7 @@ function formatBytes(bytes: number) {
 }
 
 export default function DatasetCard({ dataset, onDelete }: Props) {
+  const { isAdmin } = useAuth()
   return (
     <div className="rounded-xl border border-theme p-5 flex flex-col gap-3 hover:border-theme-strong transition-all" style={{ background: 'var(--bg-card)' }}>
       <div className="flex items-start justify-between gap-2">
@@ -34,6 +36,15 @@ export default function DatasetCard({ dataset, onDelete }: Props) {
       </div>
 
       <span className="text-xs text-gray-400 font-mono">#{dataset.id}</span>
+
+      {isAdmin && dataset.owner_email && (
+        <div className="flex items-center gap-1.5 text-xs text-gray-500">
+          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+          <span className="truncate" title={dataset.owner_email}>{dataset.owner_name || dataset.owner_email}</span>
+        </div>
+      )}
 
       <div className="grid grid-cols-2 gap-2 text-xs text-gray-500">
         <div><span className="text-gray-700 dark:text-gray-300 font-medium">{dataset.record_count.toLocaleString()}</span> records</div>

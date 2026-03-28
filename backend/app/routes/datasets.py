@@ -1,6 +1,6 @@
 import math
 from fastapi import APIRouter, Depends, Query, HTTPException
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from app.database import get_db
 from app.models.dataset import Dataset
 from app.models.record import Record
@@ -46,10 +46,17 @@ def list_datasets(
     order_col = getattr(Dataset, sort_by)
     if sort_order == "desc":
         order_col = order_col.desc()
-    items = query.order_by(order_col).offset((page - 1) * limit).limit(limit).all()
+    items = query.options(joinedload(Dataset.user)).order_by(order_col).offset((page - 1) * limit).limit(limit).all()
+
+    items_out = []
+    for dataset in items:
+        d = DatasetOut.model_validate(dataset).model_dump()
+        d["owner_email"] = dataset.user.email if dataset.user else None
+        d["owner_name"] = dataset.user.full_name if dataset.user else None
+        items_out.append(DatasetOut(**d))
 
     return PaginatedDatasets(
-        items=items,
+        items=items_out,
         total=total,
         page=page,
         limit=limit,

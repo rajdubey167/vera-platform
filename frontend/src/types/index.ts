@@ -22,6 +22,8 @@ export interface Dataset {
   file_size: number
   user_id: number
   status: string
+  owner_email?: string
+  owner_name?: string
 }
 
 export interface DatasetDetail extends Dataset {

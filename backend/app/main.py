@@ -1,3 +1,4 @@
+import os
 import time
 from contextlib import asynccontextmanager
 
@@ -5,12 +6,38 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
-from app.database import Base, engine
+from app.database import Base, SessionLocal, engine
 from app.models import AnalyticsResult, Dataset, Record, User  # noqa: F401
 from app.routes import analytics, auth, datasets, graph, records, upload, websocket
 from app.utils.logger import logger
+from app.utils.security import hash_password
 
 settings = get_settings()
+
+
+def seed_admin():
+    admin_email = os.getenv("ADMIN_EMAIL", "").strip().lower()
+    admin_password = os.getenv("ADMIN_PASSWORD", "").strip()
+    if not admin_email or not admin_password:
+        return
+    db = SessionLocal()
+    try:
+        exists = db.query(User).filter(User.email == admin_email).first()
+        if not exists:
+            admin = User(
+                email=admin_email,
+                hashed_password=hash_password(admin_password),
+                full_name="Admin",
+                role="admin",
+                is_active=True,
+            )
+            db.add(admin)
+            db.commit()
+            logger.info(f"Admin account created: {admin_email}")
+        else:
+            logger.info(f"Admin account already exists: {admin_email}")
+    finally:
+        db.close()
 
 
 @asynccontextmanager
@@ -18,6 +45,7 @@ async def lifespan(app: FastAPI):
     logger.info("Starting VERA - creating database tables...")
     Base.metadata.create_all(bind=engine)
     logger.info("Database tables ready")
+    seed_admin()
     yield
     logger.info("VERA shutting down")
 

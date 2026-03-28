@@ -12,6 +12,8 @@ class DatasetOut(BaseModel):
     file_size: int
     user_id: int
     status: str
+    owner_email: Optional[str] = None
+    owner_name: Optional[str] = None
 
     model_config = {"from_attributes": True}
 
