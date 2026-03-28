@@ -7,4 +7,5 @@ router = APIRouter(tags=["Graph"])
 
 @router.get("/graph")
 def get_data_graph(current_user=Depends(get_current_user)):
-    return get_graph()
+    user_id = None if current_user.role == "admin" else current_user.id
+    return get_graph(user_id=user_id)

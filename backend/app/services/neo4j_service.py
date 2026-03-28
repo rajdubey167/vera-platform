@@ -21,7 +21,7 @@ def get_driver():
     return _driver
 
 
-def sync_dataset(dataset_id: int, filename: str, file_type: str, record_count: int, columns: list[str]):
+def sync_dataset(dataset_id: int, filename: str, file_type: str, record_count: int, columns: list[str], user_id: int = None):
     """Create/update Dataset node and its Column nodes in Neo4j."""
     driver = get_driver()
     if not driver:
@@ -32,9 +32,9 @@ def sync_dataset(dataset_id: int, filename: str, file_type: str, record_count: i
             session.run(
                 """
                 MERGE (d:Dataset {id: $id})
-                SET d.name = $name, d.file_type = $file_type, d.record_count = $record_count
+                SET d.name = $name, d.file_type = $file_type, d.record_count = $record_count, d.user_id = $user_id
                 """,
-                id=dataset_id, name=filename, file_type=file_type, record_count=record_count,
+                id=dataset_id, name=filename, file_type=file_type, record_count=record_count, user_id=user_id,
             )
             # Merge each column and create relationship
             for col in columns:
@@ -73,31 +73,44 @@ def delete_dataset(dataset_id: int):
         logger.warning(f"Neo4j delete failed for dataset {dataset_id}: {e}")
 
 
-def get_graph() -> dict:
-    """Return all nodes and relationships for visualization."""
+def get_graph(user_id: int = None) -> dict:
+    """Return nodes and relationships for visualization. Filter by user_id if provided."""
     driver = get_driver()
     if not driver:
         return {"nodes": [], "links": [], "available": False}
 
     try:
         with driver.session() as session:
-            # Get all dataset nodes
-            datasets = session.run(
-                "MATCH (d:Dataset) RETURN d.id AS id, d.name AS name, d.file_type AS file_type, d.record_count AS record_count"
-            ).data()
-
-            # Get all column nodes with dataset count
-            columns = session.run(
-                """
-                MATCH (c:Column)<-[:HAS_COLUMN]-(d:Dataset)
-                RETURN c.name AS name, count(d) AS dataset_count
-                """
-            ).data()
-
-            # Get all relationships
-            links = session.run(
-                "MATCH (d:Dataset)-[:HAS_COLUMN]->(c:Column) RETURN d.id AS dataset_id, c.name AS col_name"
-            ).data()
+            if user_id is not None:
+                datasets = session.run(
+                    "MATCH (d:Dataset) WHERE d.user_id = $user_id RETURN d.id AS id, d.name AS name, d.file_type AS file_type, d.record_count AS record_count",
+                    user_id=user_id
+                ).data()
+                columns = session.run(
+                    """
+                    MATCH (c:Column)<-[:HAS_COLUMN]-(d:Dataset)
+                    WHERE d.user_id = $user_id
+                    RETURN c.name AS name, count(d) AS dataset_count
+                    """,
+                    user_id=user_id
+                ).data()
+                links = session.run(
+                    "MATCH (d:Dataset)-[:HAS_COLUMN]->(c:Column) WHERE d.user_id = $user_id RETURN d.id AS dataset_id, c.name AS col_name",
+                    user_id=user_id
+                ).data()
+            else:
+                datasets = session.run(
+                    "MATCH (d:Dataset) RETURN d.id AS id, d.name AS name, d.file_type AS file_type, d.record_count AS record_count"
+                ).data()
+                columns = session.run(
+                    """
+                    MATCH (c:Column)<-[:HAS_COLUMN]-(d:Dataset)
+                    RETURN c.name AS name, count(d) AS dataset_count
+                    """
+                ).data()
+                links = session.run(
+                    "MATCH (d:Dataset)-[:HAS_COLUMN]->(c:Column) RETURN d.id AS dataset_id, c.name AS col_name"
+                ).data()
 
         nodes = []
         for d in datasets:

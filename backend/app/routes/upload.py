@@ -34,7 +34,7 @@ async def upload_file(
     from app.models.record import Record
     first = db.query(Record).filter(Record.dataset_id == dataset.id).first()
     columns = list(first.data.keys()) if first else []
-    sync_dataset(dataset.id, dataset.filename, dataset.file_type, dataset.record_count, columns)
+    sync_dataset(dataset.id, dataset.filename, dataset.file_type, dataset.record_count, columns, user_id=current_user.id)
 
     await manager.send_to_user(
         str(current_user.id),
