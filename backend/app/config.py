@@ -4,7 +4,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     database_url: str = "postgresql://vera:vera@db:5432/vera"
-    secret_key: str = "supersecretkeymin32charslong1234567890"
+    secret_key: str = ""
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 1440
     environment: str = "development"

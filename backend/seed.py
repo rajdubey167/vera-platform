@@ -12,11 +12,9 @@ from app.database import SessionLocal, engine, Base
 from app.models import User, Dataset, Record, AnalyticsResult  # noqa: F401 - registers models
 from app.utils.security import hash_password
 
-# --- Configure your admin credentials here ---
-ADMIN_EMAIL    = "admin@vera.com"
-ADMIN_PASSWORD = "Admin1234!"
-ADMIN_NAME     = "VERA Admin"
-# ---------------------------------------------
+ADMIN_EMAIL    = os.getenv("ADMIN_EMAIL", "")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "")
+ADMIN_NAME     = os.getenv("ADMIN_NAME", "VERA Admin")
 
 def seed():
     Base.metadata.create_all(bind=engine)
