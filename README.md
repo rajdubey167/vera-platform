@@ -25,11 +25,7 @@ docker-compose logs -f
 | API Docs (Swagger) | http://localhost:8000/docs |
 | Neo4j Browser | http://localhost:7474 |
 
-### Test Credentials
-```
-Email:    demo@vera.com
-Password: Demo1234!
-```
+
 > Create the test account via the Signup page or POST /register
 
 ---
