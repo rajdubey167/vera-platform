@@ -48,12 +48,3 @@ coverage.xml
 # Secrets — never commit real .env
 backend/.env
 
-# Claude project files
-.claude/
-
-# PDF assignment (optional — remove if you want it in repo)
-*.pdf
-
-# Prompt/notes files
-VERA_PROMPT_LEAN.md
-image.png
