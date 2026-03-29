@@ -14,6 +14,7 @@ import DatasetsPage from './pages/DatasetsPage'
 import DatasetDetailPage from './pages/DatasetDetailPage'
 import AnalyticsPage from './pages/AnalyticsPage'
 import GraphPage from './pages/GraphPage'
+import UsersPage from './pages/UsersPage'
 
 const SIDEBAR_W = 240
 
@@ -96,6 +97,9 @@ export default function App() {
             } />
             <Route path="/graph" element={
               <ProtectedRoute><AppLayout><GraphPage /></AppLayout></ProtectedRoute>
+            } />
+            <Route path="/users" element={
+              <ProtectedRoute adminOnly><AppLayout><UsersPage /></AppLayout></ProtectedRoute>
             } />
 
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
