@@ -147,11 +147,39 @@ export function Sidebar({ open, onToggle }: { open: boolean; onToggle: () => voi
             <p style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.1em', color: 'var(--sidebar-text-muted)', padding: '4px 10px 8px', opacity: 0.6 }}>
               ADMIN
             </p>
-            <NavLink to="/users" icon={
-              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-              </svg>
-            } label="All Users" />
+            <Link
+              to="/users"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '9px 12px', borderRadius: 9, marginBottom: 2,
+                fontSize: 13, fontWeight: 600, textDecoration: 'none',
+                transition: 'all 0.15s ease',
+                color: pathname === '/users' ? '#818cf8' : 'var(--sidebar-text-muted)',
+                background: pathname === '/users'
+                  ? 'linear-gradient(90deg, rgba(99,102,241,0.18) 0%, rgba(99,102,241,0.05) 100%)'
+                  : 'transparent',
+                borderLeft: pathname === '/users' ? '3px solid #6366f1' : '3px solid transparent',
+              }}
+              onMouseEnter={e => {
+                if (pathname !== '/users') {
+                  e.currentTarget.style.background = 'var(--sidebar-hover-bg)'
+                  e.currentTarget.style.color = 'var(--sidebar-text)'
+                }
+              }}
+              onMouseLeave={e => {
+                if (pathname !== '/users') {
+                  e.currentTarget.style.background = 'transparent'
+                  e.currentTarget.style.color = 'var(--sidebar-text-muted)'
+                }
+              }}
+            >
+              <span style={{ color: pathname === '/users' ? '#818cf8' : 'var(--sidebar-text-muted)', flexShrink: 0 }}>
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </span>
+              All Users
+            </Link>
           </div>
         )}
       </nav>
